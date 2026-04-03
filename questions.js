@@ -107,7 +107,7 @@ const QUESTIONS = [
       { id: "d", text: "sú obligátne spoločenstvá organizmov", correct: true },
       { id: "e", text: "majú jedincov trvalo anatomicky a funkčne diferencovaných", correct: true },
       { id: "f", text: "sú spoločenstvá organizmov, v ktorých je funkčná špecializácia jedincov zameniteľná", correct: false },
-      { id: "g", text: "sú spoločenstvá organizmov, v ktorých je funkčná špecializácia jedincov nezameniteľná", correct: false },
+      { id: "g", text: "sú spoločenstvá organizmov, v ktorých je funkčná špecializácia jedincov nezameniteľná", correct: true },
       { id: "h", text: "majú jedincov prechodne anatomicky a funkčne diferencovaných", correct: false }
     ]
   },
@@ -961,7 +961,7 @@ const QUESTIONS = [
       { id: "d", text: "sú chromozómy jednochromatídové", correct: true },
       { id: "e", text: "zaniká deliace vretienko", correct: true },
       { id: "f", text: "sa rozpúšťa jadrová membrána", correct: false },
-      { id: "g", text: "zaniká jadierko", correct: true },
+      { id: "g", text: "zaniká jadierko", correct: false },
       { id: "h", text: "sa obnovuje štruktúra jadra", correct: true }
     ]
   },
@@ -1389,7 +1389,7 @@ const QUESTIONS = [
     id: 100,
     text: "V rastlinných bunkách sa nenachádzajú:",
     options: [
-      { id: "a", text: "lyzozómy", correct: false },
+      { id: "a", text: "lyzozómy", correct: true },
       { id: "b", text: "neurofibrily", correct: true },
       { id: "c", text: "tonofibrily", correct: true },
       { id: "d", text: "hydrolytické enzýmy", correct: false },
@@ -1477,7 +1477,7 @@ const QUESTIONS = [
       { id: "b", text: "A. Leewenhoek", correct: false },
       { id: "c", text: "M. J. Schleiden", correct: true },
       { id: "d", text: "L. Pasteur", correct: false },
-      { id: "e", text: "J. E. Purkyně", correct: false },
+      { id: "e", text: "J. E. Purkyně", correct: true },
       { id: "f", text: "T. Schwann", correct: true },
       { id: "g", text: "M. Malpighi", correct: false },
       { id: "h", text: "Ch. L. Treviranus", correct: false }
@@ -1507,8 +1507,8 @@ const QUESTIONS = [
       { id: "d", text: "embryológia", correct: false },
       { id: "e", text: "vedy, ktoré študujú funkciu jednotlivých orgánov živých sústav", correct: true },
       { id: "f", text: "fyziológia živočíchov", correct: true },
-      { id: "g", text: "vedy, ktoré študujú funkciu jednotlivých bunkových organel", correct: true },
-      { id: "h", text: "fyziológia rastlín", correct: false }
+      { id: "g", text: "vedy, ktoré študujú funkciu jednotlivých bunkových organel", correct: false },
+      { id: "h", text: "fyziológia rastlín", correct: true }
     ]
   },
   {
@@ -2397,7 +2397,7 @@ const QUESTIONS = [
       { id: "b", text: "borka", correct: false },
       { id: "c", text: "úponok", correct: true },
       { id: "d", text: "bulva", correct: true },
-      { id: "e", text: "brachyblast", correct: false },
+      { id: "e", text: "brachyblast", correct: true },
       { id: "f", text: "korok", correct: false },
       { id: "g", text: "podzemok", correct: true },
       { id: "h", text: "stvol", correct: false }

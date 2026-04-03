@@ -2837,6 +2837,678 @@ const QUESTIONS = [
       { "id": "g", "text": "haustóriami, ktoré prenikajú do lykových častí cievnych zväzkov", "correct": false },
       { "id": "h", "text": "tentakulami", "correct": false }
     ]
+  },
+  {
+    id: 204,
+    text: "Chemosyntetizujúce baktérie:",
+    options: [
+      { id: "a", text: "sú heterotrofné organizmy", correct: false },
+      { id: "b", text: "sú autotrofné organizmy", correct: true },
+      { id: "c", text: "sú pigmentované baktérie", correct: false },
+      { id: "d", text: "sú napr. sirne baktérie", correct: true },
+      { id: "e", text: "sú napr. denitrifikačné baktérie", correct: true },
+      { id: "f", text: "sú autotrofno-heterotrofné organizmy", correct: false },
+      { id: "g", text: "nemajú asimilačné pigmenty", correct: true },
+      { id: "h", text: "majú asimilačné pigmenty", correct: false }
+    ]
+  },
+  {
+    id: 205,
+    text: "Denitrifikačné baktérie:",
+    options: [
+      { id: "a", text: "žijú v pôde", correct: true },
+      { id: "b", text: "uskutočňujú nitrifikáciu", correct: false },
+      { id: "c", text: "obohacujú pôdu o dusík", correct: false },
+      { id: "d", text: "rozkladajú nitráty", correct: true },
+      { id: "e", text: "uvoľňujú dusík do ovzdušia", correct: true },
+      { id: "f", text: "majú pozitívny význam v poľnohospodárstve, pretože uvoľňujú dusík do ovzdušia", correct: false },
+      { id: "g", text: "sú napr. Nitrobacter a Nitrosomonas", correct: false },
+      { id: "h", text: "oxidujú nitrity na nitráty", correct: false }
+    ]
+  },
+  {
+    id: 206,
+    text: "Potravový reťazec v prírode zakončujú:",
+    options: [
+      { id: "a", text: "reducenty", correct: true },
+      { id: "b", text: "konzumenty", correct: false },
+      { id: "c", text: "producenty", correct: false },
+      { id: "d", text: "saprofyty", correct: true },
+      { id: "e", text: "parazity, ktoré rozkladajú organické zvyšky po odumretých organizmoch", correct: false },
+      { id: "f", text: "saprofyty, ktoré haustóriami odoberajú organické látky mŕtvym organizmom", correct: false },
+      { id: "g", text: "hemiparazity, ktoré mineralizujú organické zvyšky po odumretých organizmoch", correct: false },
+      { id: "h", text: "mikroorganizmy, ktoré mineralizujú organické zvyšky po odumretých organizmoch", correct: true }
+    ]
+  },
+  {
+    id: 207,
+    text: "Katabolické procesy v rastlinách sú:",
+    options: [
+      { id: "a", text: "disimilačné", correct: true },
+      { id: "b", text: "asimilačné", correct: false },
+      { id: "c", text: "napr. typu fotosyntézy", correct: false },
+      { id: "d", text: "napr. typu dýchania", correct: true },
+      { id: "e", text: "spojené so spotrebou energie", correct: false },
+      { id: "f", text: "spojené s uvoľňovaním energie chemických väzieb", correct: true },
+      { id: "g", text: "endergonické", correct: false },
+      { id: "h", text: "také, pri ktorých rastliny štiepia zložitejšie organické látky na jednoduchšie", correct: true }
+    ]
+  },
+  {
+    id: 208,
+    text: "Anabolické procesy v rastlinách sú:",
+    options: [
+      { id: "a", text: "disimilačné", correct: false },
+      { id: "b", text: "asimilačné", correct: true },
+      { id: "c", text: "napr. typu dýchania", correct: false },
+      { id: "d", text: "napr. typu fotosyntézy", correct: true },
+      { id: "e", text: "spojené so spotrebou energie", correct: true },
+      { id: "f", text: "spojené s uvoľňovaním energie chemických väzieb", correct: false },
+      { id: "g", text: "endergonické", correct: true },
+      { id: "h", text: "exergonické", correct: false }
+    ]
+  },
+  {
+    id: 209,
+    text: "Ktoré asimilačné pigmenty využívajú pri fotosyntéze cyanobaktérie:",
+    options: [
+      { id: "a", text: "fykoerytrín", correct: false },
+      { id: "b", text: "fykocyanin", correct: true },
+      { id: "c", text: "modré fykobilíny", correct: true },
+      { id: "d", text: "a-karotén", correct: false },
+      { id: "e", text: "hemoglobiny", correct: false },
+      { id: "f", text: "xantofyly", correct: false },
+      { id: "g", text: "červené fykobiliny", correct: true },
+      { id: "h", text: "chlorofyl a", correct: true }
+    ]
+  },
+  {
+    id: 210,
+    text: "Asimilačné farbivá:",
+    options: [
+      { id: "a", text: "nešpecificky zachytávajú slnečné žiarenie rôznych vlnových dĺžok", correct: false },
+      { id: "b", text: "selektívne zachytávajú energiu slnečných lúčov príslušnej vlnovej dĺžky", correct: true },
+      { id: "c", text: "prokaryotických organizmov sú naviazané na membrány chloroplastov", correct: false },
+      { id: "d", text: "zelených rastlín sú naviazané na chloroplastové membrány", correct: true },
+      { id: "e", text: "zelených rastlín sú baktériochlorofyl, chlorofyl b, karotenoidy", correct: false },
+      { id: "f", text: "zelených rastlín sú chlorofyly, karotenoidy, fykobilíny", correct: false },
+      { id: "g", text: "fungujú ako zberače slnečnej energie", correct: true },
+      { id: "h", text: "zelených rastlín absorbujú časť spektra viditeľného svetla v škále od 400 do 700 nm", correct: true }
+    ]
+  },
+  {
+    id: 211,
+    text: "Fotolýza vody je súčasťou:",
+    options: [
+      { id: "a", text: "Calvinovho cyklu", correct: false },
+      { id: "b", text: "fotochemickej fázy fotosyntézy", correct: true },
+      { id: "c", text: "Krebsovho cyklu", correct: false },
+      { id: "d", text: "dýchacieho reťazca", correct: false },
+      { id: "e", text: "syntetickej fázy fotosyntézy", correct: false },
+      { id: "f", text: "primárnych procesov fotosyntézy", correct: true },
+      { id: "g", text: "sekundárnych procesov fotosyntézy", correct: false },
+      { id: "h", text: "glykolýzy", correct: false }
+    ]
+  },
+  {
+    id: 212,
+    text: "Výsledkom primárnych procesov fotosyntézy je:",
+    options: [
+      { id: "a", text: "ATP, kyslík, NADP+", correct: false },
+      { id: "b", text: "C6H12O6, H2O a O₂", correct: false },
+      { id: "c", text: "glukóza", correct: false },
+      { id: "d", text: "oxid uhličitý", correct: false },
+      { id: "e", text: "oxálacetát", correct: false },
+      { id: "f", text: "ATP, kyslík, redukovaný koenzým NADPH + H+", correct: true },
+      { id: "g", text: "ATP, redukovaný koenzým NADPH + H*, glukóza", correct: false },
+      { id: "h", text: "ribulóza 1,5-bisfosfát", correct: false }
+    ]
+  },
+  {
+    id: 213,
+    text: "Mäsožravé rastliny majú praktický význam:",
+    options: [
+      { id: "a", text: "pretože sú schopné viazať vzdušný dusík", correct: false },
+      { id: "b", text: "vo farmaceutickom priemysle", correct: false },
+      { id: "c", text: "v medicine", correct: false },
+      { id: "d", text: "pri zelenom hnojení", correct: false },
+      { id: "e", text: "pri liečbe nádorových ochorení", correct: false },
+      { id: "f", text: "ako reducenty organických látok", correct: false },
+      { id: "g", text: "v biologickom boji proti škodcom", correct: true },
+      { id: "h", text: "pretože mnohé z nich sú veľmi vzácne liečivé rastliny", correct: false }
+    ]
+  },
+  {
+    id: 214,
+    text: "Syntéza ATP v rastlinných bunkách prebieha:",
+    options: [
+      { id: "a", text: "na vnútornej membráne mitochondrii", correct: true },
+      { id: "b", text: "na membráne tylakoidov v chloroplastoch", correct: true },
+      { id: "c", text: "v jadre bunky", correct: false },
+      { id: "d", text: "na vonkajšej membráne mitochondrií", correct: false },
+      { id: "e", text: "na drsnom endoplazmatickom retikule", correct: false },
+      { id: "f", text: "na mitochondriálnych kristách", correct: true },
+      { id: "g", text: "v stróme chloroplastov", correct: false },
+      { id: "h", text: "prevažne v cytoplazme", correct: false }
+    ]
+  },
+  {
+    id: 215,
+    text: "Kyslík uvoľňovaný pri fotosyntéze do vzduchu pochádza:",
+    options: [
+      { id: "a", text: "z vody", correct: true },
+      { id: "b", text: "z CO₂", correct: false },
+      { id: "c", text: "z glukózy", correct: false },
+      { id: "d", text: "z NADP+", correct: false },
+      { id: "e", text: "z fotolýzy vody", correct: true },
+      { id: "f", text: "z asimilačných farbív", correct: false },
+      { id: "g", text: "pri C3 rastlinách z ribulóza 1,5-bisfosfátu", correct: false },
+      { id: "h", text: "pri C4 rastlinách z fosfoenolpyruvátu", correct: false }
+    ]
+  },
+  {
+    id: 216,
+    text: "Sekundárne procesy fotosyntézy:",
+    options: [
+      { id: "a", text: "využívajú chemickú energiu na redukciu CO2 na sacharidy", correct: true },
+      { id: "b", text: "sú charakterizované dvoma spôsobmi viazania CO2", correct: true },
+      { id: "c", text: "nemusia prebiehať na svetle", correct: true },
+      { id: "d", text: "vyžadujú akceptor CO2 acetylkoenzým A", correct: false },
+      { id: "e", text: "vyžadujú akceptor CO2 fosfoenolpyruvát - C3 rastliny", correct: false },
+      { id: "f", text: "vyžadujú akceptor CO2 ribulóza 1,5-bisfosfát - C4 rastliny", correct: false },
+      { id: "g", text: "vyžadujú akceptor CO2 fosfoenolpyruvát - C4 rastliny", correct: true },
+      { id: "h", text: "vyžadujú akceptor CO2 ribulóza 1,5-bisfosfát - C3 rastliny", correct: true }
+    ]
+  },
+  {
+    id: 217,
+    text: "Fotochemická fáza fotosyntézy zahŕňa procesy:",
+    options: [
+      { id: "a", text: "ktoré môžu prebiehať len na svetle", correct: true },
+      { id: "b", text: "ktoré môžu prebiehať na svetle aj v tme", correct: false },
+      { id: "c", text: "ktoré sú spojené s fotofosforyláciou", correct: true },
+      { id: "d", text: "spojené s premenou látok", correct: false },
+      { id: "e", text: "spojené s fotolýzou vody", correct: true },
+      { id: "f", text: "fotolýzy CO₂", correct: false },
+      { id: "g", text: "tvorby ATP", correct: true },
+      { id: "h", text: "štiepenia ATP", correct: false }
+    ]
+  },
+  {
+    id: 218,
+    text: "Fotolýza vody:",
+    options: [
+      { id: "a", text: "je závislá od žiarivej energie", correct: true },
+      { id: "b", text: "patrí k fotobiologickým procesom", correct: true },
+      { id: "c", text: "patrí k sekundárnym procesom fotosyntézy", correct: false },
+      { id: "d", text: "prebieha len na svetle", correct: true },
+      { id: "e", text: "je primárny proces syntetickej fázy fotosyntézy", correct: false },
+      { id: "f", text: "je disociácia vody vplyvom svetelného žiarenia", correct: true },
+      { id: "g", text: "prebieha v cytoplazme rastlinných buniek", correct: false },
+      { id: "h", text: "môže byť cyklická a necyklická", correct: false }
+    ]
+  },
+  {
+    id: 219,
+    text: "Pri fotosyntéze:",
+    options: [
+      { id: "a", text: "vzniká CO₂", correct: false },
+      { id: "b", text: "vzniká O₂", correct: true },
+      { id: "c", text: "vzniká ATP", correct: true },
+      { id: "d", text: "sa štiepi ATP vo fotochemickej fáze", correct: false },
+      { id: "e", text: "sa spotrebúva O₂", correct: false },
+      { id: "f", text: "vzniká 36 molekúl ATP", correct: false },
+      { id: "g", text: "vzniká NADPH + H*", correct: true },
+      { id: "h", text: "vzniká glukóza", correct: false }
+    ]
+  },
+  {
+    id: 220,
+    text: "Pri sekundárnych procesoch fotosyntézy sa CO₂ viaže na:",
+    options: [
+      { id: "a", text: "vhodný organický substrát", correct: true },
+      { id: "b", text: "vhodný anorganický substrát", correct: false },
+      { id: "c", text: "polysacharid", correct: false },
+      { id: "d", text: "ribulóza 1,5-bisfosfát", correct: true },
+      { id: "e", text: "ribóza 1,5-fosfát", correct: false },
+      { id: "f", text: "pri C3 rastlinách oxálacetát", correct: false },
+      { id: "g", text: "fosfoenolpyruvát pri C4 rastlinách", correct: true },
+      { id: "h", text: "fosfoenolpyruvát pri C3 rastlinách", correct: false }
+    ]
+  },
+  {
+    id: 221,
+    text: "Fotoautotrofia je:",
+    options: [
+      { id: "a", text: "syntéza jednoduchých anorganických látok pomocou svetla", correct: false },
+      { id: "b", text: "synonymum pre fotosyntézu", correct: true },
+      { id: "c", text: "synonymum pre fotorespiráciu", correct: false },
+      { id: "d", text: "prírodný proces tvorby organických látok a kyslíka rastlinami", correct: true },
+      { id: "e", text: "proces spaľovania látok a uvoľňovania nahromadenej energie", correct: false },
+      { id: "f", text: "proces disimilácie anorganických látok", correct: false },
+      { id: "g", text: "séria biochemických reakcií štiepenia organických látok spojená s uvoľňovaním energie", correct: false },
+      { id: "h", text: "proces oxidácie anorganického substrátu a redukcie CO2 na sacharidy", correct: false }
+    ]
+  },
+  {
+    id: 222,
+    text: "Dýchací reťazec, ktorého konečným produktom je voda:",
+    options: [
+      { id: "a", text: "je lokalizovaný v mitochondriálnej matrix", correct: false },
+      { id: "b", text: "je lokalizovaný v stróme chloroplastov", correct: false },
+      { id: "c", text: "je lokalizovaný vo vnútornej membráne chloroplastov", correct: false },
+      { id: "d", text: "je sled reakcií, v ktorom vzniká ATP", correct: true },
+      { id: "e", text: "je sled reakcií, v ktorom sa štiepia makroergické väzby ATP", correct: false },
+      { id: "f", text: "je lokalizovaný vo vnútornej mitochondriálnej membráne", correct: true },
+      { id: "g", text: "je lokalizovaný vo všetkých bunkách v cytoplazme", correct: false },
+      { id: "h", text: "je sled reakcií, v ktorom sa uvoľnená energia ukladá do asimilátov", correct: false }
+    ]
+  },
+  {
+    id: 223,
+    text: "Rastliny dýchajú:",
+    options: [
+      { id: "a", text: "iba v noci", correct: false },
+      { id: "b", text: "iba cez deň", correct: false },
+      { id: "c", text: "aj cez deň, aj v noci", correct: true },
+      { id: "d", text: "aj cez deň, aj v noci, ale dýchanie cez deň je „zastreté“ fotosyntézou", correct: true },
+      { id: "e", text: "pričom prijímajú CO₂ a uvoľňujú O₂ do prostredia", correct: false },
+      { id: "f", text: "pričom prijímajú O₂ a vydávajú CO₂ do prostredia", correct: true },
+      { id: "g", text: "pričom premieňajú energiu fotónov slnečného žiarenia", correct: false },
+      { id: "h", text: "pričom spotrebúvajú organické a anorganické látky", correct: false }
+    ]
+  },
+  {
+    id: 224,
+    text: "Glykolýza:",
+    options: [
+      { id: "a", text: "prebieha v mitochondriách", correct: false },
+      { id: "b", text: "je prvá etapa biologickej oxidácie", correct: true },
+      { id: "c", text: "je pravé kvasenie", correct: false },
+      { id: "d", text: "prebieha v cytoplazme", correct: true },
+      { id: "e", text: "prebieha v anaeróbnych organizmoch", correct: true },
+      { id: "f", text: "prebieha v aeróbnych organizmoch", correct: true },
+      { id: "g", text: "je druhá etapa biologickej oxidácie", correct: false },
+      { id: "h", text: "je neúplná oxidácia", correct: true }
+    ]
+  },
+  {
+    id: 225,
+    text: "Celkový energetický zisk pri odbúravaní jednej molekuly glukózy na H₂O a CO2:",
+    options: [
+      { id: "a", text: "30 molekúl ATP", correct: false },
+      { id: "b", text: "2 molekuly ATP", correct: false },
+      { id: "c", text: "36 molekúl ATP", correct: true },
+      { id: "d", text: "38 molekúl ATP", correct: false },
+      { id: "e", text: "znížený v dôsledku fotorespirácie", correct: false },
+      { id: "f", text: "rovnaký ako pri fotosyntéze", correct: false },
+      { id: "g", text: "nízky, pretože rastlina nepredýcha všetky produkty fotosyntézy", correct: true },
+      { id: "h", text: "taký, že to postačí na vytvorenie 36 makroergických väzieb", correct: false }
+    ]
+  },
+  {
+    id: 226,
+    text: "Kyselina pyrohroznová:",
+    options: [
+      { id: "a", text: "je základný produkt úplnej oxidácie organických látok", correct: false },
+      { id: "b", text: "je základný produkt glykolýzy", correct: true },
+      { id: "c", text: "podlieha oxidačnej dekarboxylácii v mitochondriách", correct: true },
+      { id: "d", text: "podlieha oxidačnej dekarboxylácii v cytoplazme eukaryotických buniek", correct: false },
+      { id: "e", text: "je transportovaná do cytoplazmy", correct: false },
+      { id: "f", text: "je transportovaná do mitochondriálnej matrix", correct: true },
+      { id: "g", text: "bezprostredne vstupuje do Krebsovho cyklu", correct: true },
+      { id: "h", text: "bezprostredne vstupuje do Calvinovho cyklu", correct: false }
+    ]
+  },
+  {
+    id: 227,
+    text: "Oxidačná fosforylácia je proces:",
+    options: [
+      { id: "a", text: "štiepenia ATP za prístupu kyslíka", correct: false },
+      { id: "b", text: "anaeróbnej oxidácie organických látok a fosforylácie ADP", correct: false },
+      { id: "c", text: "aeróbnej oxidácie organických látok a fosforylácie ADP", correct: true },
+      { id: "d", text: "aeróbnej oxidácie organických látok a fosforylácie ATP", correct: false },
+      { id: "e", text: "pri ktorom vzniká energia vo forme ATP", correct: true },
+      { id: "f", text: "pri ktorom je vodík oxidovaný na vodu a fosforylovaný ATP", correct: false },
+      { id: "g", text: "pri ktorom je vodík glukózy oxidovaný na peroxidy", correct: false },
+      { id: "h", text: "ktorý prebieha v mitochondriách", correct: true }
+    ]
+  },
+  {
+    id: 228,
+    text: "Pravé kvasenie:",
+    options: [
+      { id: "a", text: "prebieha za prístupu vonkajšieho kyslíka", correct: false },
+      { id: "b", text: "urýchľuje prítomnosť kyslíka", correct: false },
+      { id: "c", text: "urýchľujú baktérie, kvasinky a plesne", correct: true },
+      { id: "d", text: "končí vznikom CO2 a H₂O", correct: false },
+      { id: "e", text: "končí vznikom kyseliny pyrohroznovej", correct: false },
+      { id: "f", text: "je biologický rozklad sacharidov pomocou mikroorganizmov", correct: true },
+      { id: "g", text: "uskutočňujú napr. kvasinky pivné", correct: true },
+      { id: "h", text: "v bunkách živočíchov a človeka končí vznikom kyseliny mliečnej", correct: true }
+    ]
+  },
+  {
+    id: 229,
+    text: "Oxidačná dekarboxylácia kyseliny pyrohroznovej:",
+    options: [
+      { id: "a", text: "je prvá etapa biologickej oxidácie", correct: false },
+      { id: "b", text: "prebieha v mitochondriách", correct: true },
+      { id: "c", text: "je proces vzniku kyseliny pyrohroznovej", correct: false },
+      { id: "d", text: "poskytuje vstupný produkt citrátového cyklu", correct: true },
+      { id: "e", text: "dáva vznik acetyl-koenzýmu A", correct: true },
+      { id: "f", text: "prebieha v cytoplazme všetkých buniek", correct: false },
+      { id: "g", text: "je poslednou fázou biologickej oxidácie", correct: false },
+      { id: "h", text: "dáva vznik 30 molekulám ATP", correct: false }
+    ]
+  },
+  {
+    id: 230,
+    text: "Energia z asimilátov sa v rastlinnej bunke uvoľňuje:",
+    options: [
+      { id: "a", text: "glykolýzou", correct: true },
+      { id: "b", text: "procesom glukoneogenézy", correct: false },
+      { id: "c", text: "v dýchacom reťazci", correct: true },
+      { id: "d", text: "oxidačnou fosforyláciou", correct: true },
+      { id: "e", text: "štiepením uhlíkového reťazca glukózy", correct: true },
+      { id: "f", text: "biologickými oxidáciami", correct: true },
+      { id: "g", text: "fotosyntézou", correct: false },
+      { id: "h", text: "fotofosforyláciou", correct: false }
+    ]
+  },
+  {
+    id: 231,
+    text: "Izogamia je splývanie gamét:",
+    options: [
+      { id: "a", text: "morfologicky a fyziologicky rovnakých", correct: true },
+      { id: "b", text: "morfologicky rovnakých a fyziologicky odlíšených", correct: false },
+      { id: "c", text: "geneticky identických", correct: false },
+      { id: "d", text: "ktoré sa líšia tvarom, organizáciou a pohyblivosťou", correct: false },
+      { id: "e", text: "haploidných", correct: false },
+      { id: "f", text: "rovnakého pohlavného typu", correct: false },
+      { id: "g", text: "odlišného pohlavného typu", correct: false },
+      { id: "h", text: "typu makrogaméta a mikrogaméta", correct: false }
+    ]
+  },
+  {
+    id: 232,
+    text: "Anizogamia je splývanie gamét:",
+    options: [
+      { id: "a", text: "morfologicky odlíšených", correct: true },
+      { id: "b", text: "geneticky identických", correct: false },
+      { id: "c", text: "haploidných", correct: false },
+      { id: "d", text: "rovnakého pohlavného typu", correct: false },
+      { id: "e", text: "ktoré sa líšia tvarom, organizáciou alebo pohyblivosťou", correct: true },
+      { id: "f", text: "typu makrogaméta a mikrogaméta", correct: true },
+      { id: "g", text: "fyziologicky odlišných", correct: true },
+      { id: "h", text: "geneticky odlišných", correct: false }
+    ]
+  },
+  {
+    id: 233,
+    text: "Rodozmena je:",
+    options: [
+      { id: "a", text: "metabióza", correct: false },
+      { id: "b", text: "striedanie pohlavnej a nepohlavnej generácie v ontogenéze rastlín", correct: true },
+      { id: "c", text: "metagenéza", correct: false },
+      { id: "d", text: "mutagenéza", correct: false },
+      { id: "e", text: "striedanie gametofytu a sporofytu v ontogenéze rastlín", correct: true },
+      { id: "f", text: "gametogenéza", correct: false },
+      { id: "g", text: "partenogenéza pri rastlinách", correct: false },
+      { id: "h", text: "striedanie haploidnej (n - sporofyt) a diploidnej (2n- gametofyt) generácie", correct: false }
+    ]
+  },
+  {
+    id: 234,
+    text: "Gametofyt pri machorastoch:",
+    options: [
+      { id: "a", text: "je vždy haploidná stielka", correct: true },
+      { id: "b", text: "je diploidná stielka", correct: false },
+      { id: "c", text: "je kormus", correct: false },
+      { id: "d", text: "tvorí výtrusnice", correct: false },
+      { id: "e", text: "vzniká mitotickým delením výtrusu", correct: true },
+      { id: "f", text: "vzniká meiotickým delením výtrusu", correct: false },
+      { id: "g", text: "vzniká mitotickým delením zygoty", correct: false },
+      { id: "h", text: "vzniká z jednobunkového haploidného útvaru", correct: true }
+    ]
+  },
+  {
+    id: 235,
+    text: "Nepohlavné rozmnožovanie rastlín:",
+    options: [
+      { id: "a", text: "je vegetatívne", correct: true },
+      { id: "b", text: "je asexuálne", correct: true },
+      { id: "c", text: "je sexuálne pri vyšších rastlinách", correct: false },
+      { id: "d", text: "je vývojovo starší spôsob rozmnožovania", correct: true },
+      { id: "e", text: "je vývojovo mladší spôsob rozmnožovania", correct: false },
+      { id: "f", text: "znamená, že nový jedinec vzniká z telových buniek rodičovského organizmu", correct: true },
+      { id: "g", text: "výtrusných je sporogenéza", correct: true },
+      { id: "h", text: "výtrusných je gametogónia", correct: false }
+    ]
+  },
+  {
+    id: 236,
+    text: "Výtrusy sú:",
+    options: [
+      { id: "a", text: "pohlavné rozmnožovacie častice nižších rastlín", correct: false },
+      { id: "b", text: "pohlavné rozmnožovacie častice vyšších rastlín", correct: false },
+      { id: "c", text: "nepohlavné rozmnožovacie častice", correct: true },
+      { id: "d", text: "výsledkom mitotického delenia spór v spórangiách", correct: false },
+      { id: "e", text: "výsledkom redukčného delenia", correct: true },
+      { id: "f", text: "rozmnožovacie častice machorastov", correct: true },
+      { id: "g", text: "rozmnožovacie častice papradorastov", correct: true },
+      { id: "h", text: "haploidné a nepohyblivé", correct: true }
+    ]
+  },
+  {
+    id: 237,
+    text: "Sporofyt machorastov:",
+    options: [
+      { id: "a", text: "je diploidný", correct: true },
+      { id: "b", text: "je vždy haploidný", correct: false },
+      { id: "c", text: "reprezentuje nepohlavnú generáciu", correct: true },
+      { id: "d", text: "nie je schopný fotosyntézy", correct: true },
+      { id: "e", text: "je prvoklík", correct: false },
+      { id: "f", text: "je vždy izomorfný", correct: false },
+      { id: "g", text: "je vždy heteromorfný", correct: false },
+      { id: "h", text: "výživou závisí od gametofytu", correct: true }
+    ]
+  },
+  {
+    id: 238,
+    text: "Rôznotvará rodozmena:",
+    options: [
+      { id: "a", text: "je izomorfná", correct: false },
+      { id: "b", text: "je heteromorfná", correct: true },
+      { id: "c", text: "znamená, že gametofyt a sporofyt sú morfologicky rovnaké", correct: false },
+      { id: "d", text: "znamená, že gametofyt a sporofyt sa morfologicky líšia", correct: true },
+      { id: "e", text: "je charakteristická pre vyššie rastliny", correct: true },
+      { id: "f", text: "je charakteristická pre nižšie rastliny", correct: false },
+      { id: "g", text: "znamená, že samčie a samičie gametangiá sú na rôznych rastlinách", correct: false },
+      { id: "h", text: "je len pri dvojdomých rastlinách", correct: false }
+    ]
+  },
+  {
+    id: 239,
+    text: "V ktorej generácii počas rodozmeny dochádza k meióze:",
+    options: [
+      { id: "a", text: "v gametofyte", correct: false },
+      { id: "b", text: "v haploidnej", correct: false },
+      { id: "c", text: "v sporofyte", correct: true },
+      { id: "d", text: "v diploidnej", correct: true },
+      { id: "e", text: "v izomorfnej", correct: false },
+      { id: "f", text: "v heteromorfnej", correct: false },
+      { id: "g", text: "v samčej", correct: false },
+      { id: "h", text: "v samičej", correct: false }
+    ]
+  },
+  {
+    id: 240,
+    text: "V životnom cykle semenných rastlín:",
+    options: [
+      { id: "a", text: "je výrazná prevaha sporofytu", correct: true },
+      { id: "b", text: "je výrazná prevaha gametofytu", correct: false },
+      { id: "c", text: "sa gametofyt vyvíja ako súčasť sporofytu", correct: true },
+      { id: "d", text: "sa sporofyt vyvíja ako súčasť gametofytu", correct: false },
+      { id: "e", text: "sporofyt plní vyživovaciu funkciu", correct: false },
+      { id: "f", text: "sporofyt reprezentuje vlastnú rastlinu", correct: true },
+      { id: "g", text: "gametofyt plní vyživovaciu funkciu", correct: false },
+      { id: "h", text: "gametofyt reprezentuje vlastnú rastlinu", correct: false }
+    ]
+  },
+  {
+    id: 241,
+    text: "V ktorej generácii machorastov vznikajú gaméty:",
+    options: [
+      { id: "a", text: "v haploidnej", correct: true },
+      { id: "b", text: "v diploidnej", correct: false },
+      { id: "c", text: "v pohlavnej", correct: true },
+      { id: "d", text: "v nepohlavnej", correct: false },
+      { id: "e", text: "v gametofyte", correct: true },
+      { id: "f", text: "v sporofyte", correct: false },
+      { id: "g", text: "v izomorfnej", correct: false },
+      { id: "h", text: "FIX_ME", correct: false }
+    ]
+  },
+  {
+    id: 242,
+    text: "Gametofyt sa od sporofytu machorastov odlišuje:",
+    options: [
+      { id: "a", text: "morfologicky v heteromorfnej", correct: true },
+      { id: "b", text: "cytologicky-gametofyt je haploidný, sporofyt je diploidný", correct: true },
+      { id: "c", text: "cytologicky-gametofyt je diploidný, sporofyt je haploidný", correct: false },
+      { id: "d", text: "fyziologicky-sporofyt výživou závisí od gametofytu", correct: true },
+      { id: "e", text: "fyziologicky-gametofyt výživou závisí od sporofytu", correct: false },
+      { id: "f", text: "pohyblivosťou", correct: false },
+      { id: "g", text: "tým, že nesie gametangiá a sporofyt stopku s výtrusnicou", correct: true },
+      { id: "h", text: "tým, že nesie stopku s výtrusnicou a sporofyt gametangiá", correct: false }
+    ]
+  },
+  {
+    id: 243,
+    text: "Výdaj vody rastlinou sa uskutočňuje:",
+    options: [
+      { id: "a", text: "transpiráciou - prevažne v noci", correct: false },
+      { id: "b", text: "transpiráciou - cez deň", correct: true },
+      { id: "c", text: "gutáciou prevažne cez deň", correct: false },
+      { id: "d", text: "gutáciou prevažne v noci a nad ránom", correct: true },
+      { id: "e", text: "prieduchovým výtlakom", correct: false },
+      { id: "f", text: "kohéznymi silami", correct: false },
+      { id: "g", text: "vyparovaním vody cez prieduchy", correct: true },
+      { id: "h", text: "kutikulárnou transpiráciou", correct: true }
+    ]
+  },
+  {
+    id: 244,
+    text: "Na vedení vody v drevnej časti cievnych zväzkov rastliny sa zúčastňuje:",
+    options: [
+      { id: "a", text: "kohézia vody", correct: true },
+      { id: "b", text: "adhézia vody", correct: true },
+      { id: "c", text: "kapilarita vody", correct: true },
+      { id: "d", text: "transpirácia", correct: true },
+      { id: "e", text: "koreňový výtlak", correct: true },
+      { id: "f", text: "výrazne gutácia", correct: false },
+      { id: "g", text: "osmotická aktivita pôdneho roztoku", correct: true },
+      { id: "h", text: "obsah kyslíka v pôde", correct: false }
+    ]
+  },
+  {
+    id: 245,
+    text: "Medzi rastové stimulátory rastlín patria:",
+    options: [
+      { id: "a", text: "kyselina abscisová", correct: false },
+      { id: "b", text: "etylén", correct: true },
+      { id: "c", text: "fenoly", correct: false },
+      { id: "d", text: "auxíny", correct: true },
+      { id: "e", text: "kyselina oxáloctová", correct: false },
+      { id: "f", text: "giberelíny", correct: true },
+      { id: "g", text: "cytokininy", correct: true },
+      { id: "h", text: "zábranné látky", correct: false }
+    ]
+  },
+  {
+    id: 246,
+    text: "Životný cyklus rastliny:",
+    options: [
+      { id: "a", text: "je synonymum pre ontogenézu", correct: true },
+      { id: "b", text: "je fylogenetický vývoj rastlinného druhu", correct: false },
+      { id: "c", text: "je obdobie života rastliny od vzniku semena po semeno", correct: true },
+      { id: "d", text: "je obdobie života rastliny od vzniku výtrusu po výtrus", correct: false },
+      { id: "e", text: "je život jedinca od začiatku jeho zrodu až po smrť", correct: true },
+      { id: "f", text: "má typický priebeh pre príslušnú skupinu rastlín", correct: true },
+      { id: "g", text: "a jeho typický priebeh je jedným zo znakov dosiahnutej fylogenetickej úrovne", correct: true },
+      { id: "h", text: "je vývin rastliny od vyklíčenia po vytvorenie rozmnožovacích orgánov", correct: false }
+    ]
+  },
+  {
+    id: 247,
+    text: "Označte správnu odpoveď:",
+    options: [
+      { id: "a", text: "ekologické sucho vzniká, keď je nízky obsah kyslíka v pôde", correct: false },
+      { id: "b", text: "fyziologické sucho vzniká, keď je slabý koreňový výtlak", correct: false },
+      { id: "c", text: "ekologické sucho vzniká pri mrazoch", correct: true },
+      { id: "d", text: "fyziologické sucho vzniká v ílovitých, mastných a kyslých pôdach", correct: true },
+      { id: "e", text: "kyprenie pôdy sa označuje ako suché zalievanie", correct: true },
+      { id: "f", text: "príjem vody rastlinou ovplyvňuje aj obsah O₂ v pôde", correct: true },
+      { id: "g", text: "vyšší osmotický potenciál pôdneho roztoku uľahčuje príjem vody rastlinou", correct: false },
+      { id: "h", text: "osmoticky napnutá bunka je špongiová", correct: false }
+    ]
+  },
+  {
+    id: 248,
+    text: "Transpiračný koeficient:",
+    options: [
+      { id: "a", text: "vyjadruje množstvo vody vydané rastlinou za jednotku času", correct: false },
+      { id: "b", text: "vyjadruje množstvo vody prijaté rastlinou za jednotku času", correct: false },
+      { id: "c", text: "sa používa na vyjadrenie intenzity transpirácie", correct: false },
+      { id: "d", text: "sa používa na vyjadrenie produkcie biomasy rastlín", correct: true },
+      { id: "e", text: "sa používa na vyjadrenie nárokov rastlín na vodu", correct: true },
+      { id: "f", text: "vyjadruje množstvo vody v litroch spotrebované rastlinou za vegetačné obdobie na 1 kg suchej hmotnosti", correct: true },
+      { id: "g", text: "vyjadruje vodnú bilanciu rastliny", correct: false },
+      { id: "h", text: "vyjadruje hospodárenie rastliny s vodou", correct: true }
+    ]
+  },
+  {
+    id: 249,
+    text: "Respiračný kvocient:",
+    options: [
+      { id: "a", text: "je pomer vyprodukovaného CO2 k spotrebovanému O2 pri bunkových oxidáciách", correct: true },
+      { id: "b", text: "je pomer prijatého O2 k vydanému CO2 pri bunkových oxidáciách", correct: false },
+      { id: "c", text: "je pomer vydaného O2 k prijatému CO2 pri bunkových oxidáciách", correct: false },
+      { id: "d", text: "vyjadruje intenzitu dýchania", correct: true },
+      { id: "e", text: "vyjadruje intenzitu fotosyntézy", correct: false },
+      { id: "f", text: "pre glukózu má hodnotu 1", correct: true },
+      { id: "g", text: "je pomer koncentrácie O2 a CO2 v pľúcach", correct: false },
+      { id: "h", text: "vyjadruje intenzitu glykolýzy", correct: false }
+    ]
+  },
+  {
+    id: 250,
+    text: "Auxíny:",
+    options: [
+      { id: "a", text: "sú chemické prostriedky na ničenie rastlín", correct: false },
+      { id: "b", text: "sú rastové regulátory", correct: true },
+      { id: "c", text: "sa využívajú v poľnohospodárstve na ničenie buriny", correct: true },
+      { id: "d", text: "sú najstaršie známe rastové látky", correct: true },
+      { id: "e", text: "podieľajú sa na regulačných procesoch rastlín", correct: true },
+      { id: "f", text: "sa uplatňujú v apikálnych meristémoch koreňov", correct: false },
+      { id: "g", text: "podporujú rast bočných koreňov", correct: false },
+      { id: "h", text: "podporujú zakoreňovanie odrezkov", correct: true }
+    ]
+  },
+  {
+    id: 251,
+    text: "Biogenetický zákon formuloval:",
+    options: [
+      { id: "a", text: "Charles Darwin", correct: false },
+      { id: "b", text: "Karl Linné", correct: false },
+      { id: "c", text: "Jean Baptiste Lamarck", correct: false },
+      { id: "d", text: "Ernst Haeckel", correct: true },
+      { id: "e", text: "Aristoteles", correct: false },
+      { id: "f", text: "Andreas Vesalius", correct: false },
+      { id: "g", text: "Louis Pasteur", correct: false },
+      { id: "h", text: "James Watson", correct: false }
+    ]
   }
-],
+]
 ];

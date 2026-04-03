@@ -1174,5 +1174,939 @@ const QUESTIONS = [
       { id: "g", text: "realizáciu kompletnej genetickej informácie vo všetkých bunkách", correct: false },
       { id: "h", text: "špecializáciu buniek na určité základné funkcie v mnohobunkovom organizme", correct: true },
     ]
-  }
+  },
+  {
+    id: 85,
+    text: "Diferencovaná bunka:",
+    options: [
+      { id: "a", text: "má aktivované iba niektoré gény", correct: true },
+      { id: "b", text: "má aktivované všetky gény v jadre", correct: false },
+      { id: "c", text: "má vlastnosť totipotencie", correct: false },
+      { id: "d", text: "obsahuje kompletnú genetickú informáciu", correct: true },
+      { id: "e", text: "obsahuje iba tú časť genetickej informácie, ktorá je potrebná pre jej tvarové a funkčné odlíšenie", correct: false },
+      { id: "f", text: "je bunka embryonálna", correct: false },
+      { id: "g", text: "je bunka svalová", correct: true },
+      { id: "h", text: "má typický tvar a je funkčne špecializovaná", correct: true }
+    ]
+  },
+  {
+    id: 86,
+    text: "Bunková stena:",
+    options: [
+      { id: "a", text: "je selektívne priepustná", correct: false },
+      { id: "b", text: "je permeabilná pre vodu a v nej rozpustené látky", correct: true },
+      { id: "c", text: "tvori osmotickú bariéru rastlinnej bunky", correct: false },
+      { id: "d", text: "je produktom protoplastu rastlinnej bunky", correct: true },
+      { id: "e", text: "má vyživovaciu funkciu", correct: false },
+      { id: "f", text: "udržiava tvar bunky", correct: true },
+      { id: "g", text: "je semipermeabilná", correct: false },
+      { id: "h", text: "bakteriálnych buniek obsahuje pektíny", correct: false }
+    ]
+  },
+  {
+    id: 87,
+    text: "Rozkladné procesy v živočíšnych bunkách zabezpečujú:",
+    options: [
+      { id: "a", text: "amyloplasty", correct: false },
+      { id: "b", text: "Golgiho aparát", correct: false },
+      { id: "c", text: "centrálna vakuola", correct: false },
+      { id: "d", text: "cytoplazma", correct: false },
+      { id: "e", text: "hladké endoplazmatické retikulum", correct: false },
+      { id: "f", text: "zrnité endoplazmatické retikulum", correct: false },
+      { id: "g", text: "lyzozómy", correct: true },
+      { id: "h", text: "membránové organely obsahujúce hydrolytické enzýmy", correct: true }
+    ]
+  },
+  {
+    id: 88,
+    text: "Rozkladné procesy v rastlinných bunkách zabezpečujú hlavne:",
+    options: [
+      { id: "a", text: "amyloplasty", correct: false },
+      { id: "b", text: "lyzozómy", correct: false },
+      { id: "c", text: "vakuoly", correct: true },
+      { id: "d", text: "tonoplasty", correct: false },
+      { id: "e", text: "plastidové ribozómy", correct: false },
+      { id: "f", text: "hladké endoplazmatické retikulum", correct: false },
+      { id: "g", text: "ribozómy", correct: false },
+      { id: "h", text: "hydrolytické enzýmy naviazané na mitochondrie", correct: false }
+    ]
+  },
+  {
+    id: 89,
+    text: "Ktoré procesy sa uskutočňujú v chloroplastoch:",
+    options: [
+      { id: "a", text: "fotosyntéza", correct: true },
+      { id: "b", text: "rozklad nepotrebných látok", correct: false },
+      { id: "c", text: "syntéza bielkovín", correct: true },
+      { id: "d", text: "glykolýza", correct: false },
+      { id: "e", text: "Krebsov cyklus", correct: false },
+      { id: "f", text: "syntéza polysacharidov tvoriacich bunkovú stenu", correct: false },
+      { id: "g", text: "syntéza nukleových kyselín", correct: true },
+      { id: "h", text: "Calvinov cyklus", correct: true }
+    ]
+  },
+  {
+    id: 90,
+    text: "Rastlinné bunky sú navzájom pospájané:",
+    options: [
+      { id: "a", text: "sústavou pletiv", correct: false },
+      { id: "b", text: "mikrotubulmi", correct: false },
+      { id: "c", text: "cytoskeletom", correct: false },
+      { id: "d", text: "plazmodezmami", correct: true },
+      { id: "e", text: "amyloplastami", correct: false },
+      { id: "f", text: "plazmidmi", correct: false },
+      { id: "g", text: "tonoplastami", correct: false },
+      { id: "h", text: "pórmi", correct: false }
+    ]
+  },
+  {
+    id: 91,
+    text: "Vakuoly:",
+    options: [
+      { id: "a", text: "sú obalené permeabilným tonoplastom", correct: false },
+      { id: "b", text: "sú vyplnené bunkovou šťavou", correct: true },
+      { id: "c", text: "sú vyplnené cytoplazmou", correct: false },
+      { id: "d", text: "obsahujú hydrolytické enzýmy", correct: true },
+      { id: "e", text: "majú na povrchu tonoplast", correct: true },
+      { id: "f", text: "sú od cytoplazmy oddelené semipermeabilnou membránou", correct: true },
+      { id: "g", text: "sú produktom protoplastu rastlinných buniek", correct: true },
+      { id: "h", text: "vypĺňa stróma", correct: false }
+    ]
+  },
+  {
+    id: 92,
+    text: "V jadrovom obale sú:",
+    options: [
+      { id: "a", text: "mikrotubuly", correct: false },
+      { id: "b", text: "otvory", correct: true },
+      { id: "c", text: "plazmodezmy", correct: false },
+      { id: "d", text: "protoplasty", correct: false },
+      { id: "e", text: "peptidoglykan", correct: false },
+      { id: "f", text: "pektíny", correct: false },
+      { id: "g", text: "lignín", correct: false },
+      { id: "h", text: "jadrové póry", correct: true }
+    ]
+  },
+  {
+    id: 93,
+    text: "Rastlinná bunka sa odlišuje od živočíšnej tým, že má:",
+    options: [
+      { id: "a", text: "mitochondrie", correct: false },
+      { id: "b", text: "plastidy", correct: true },
+      { id: "c", text: "ribozómy", correct: false },
+      { id: "d", text: "vakuoly", correct: true },
+      { id: "e", text: "zrnité endoplazmatické retikulum", correct: false },
+      { id: "f", text: "bunkovú stenu", correct: true },
+      { id: "g", text: "lyzozómy", correct: false },
+      { id: "h", text: "mikrotubuly", correct: false }
+    ]
+  },
+  {
+    id: 94,
+    text: "Tylakoidy sú:",
+    options: [
+      { id: "a", text: "súčasťou mitochondrií", correct: false },
+      { id: "b", text: "v stróme chloroplastov", correct: true },
+      { id: "c", text: "v cytoplazme všetkých baktérií", correct: false },
+      { id: "d", text: "membránové organely eukaryotickej bunky", correct: false },
+      { id: "e", text: "malé mechúriky Golgiho aparátu", correct: false },
+      { id: "f", text: "súčasťou chloroplastov", correct: true },
+      { id: "g", text: "sploštené mechúriky viažuce molekuly chlorofylu", correct: true },
+      { id: "h", text: "v cytoplazme cyanobaktérií", correct: true }
+    ]
+  },
+  {
+    id: 95,
+    text: "Bičíky eukaryotických buniek:",
+    options: [
+      { id: "a", text: "sa skladajú z deväť trojíc mikrotubulov", correct: false },
+      { id: "b", text: "majú na povrchu plazmatickú membránu", correct: true },
+      { id: "c", text: "sú zakotvené v bunkovej stene", correct: false },
+      { id: "d", text: "sa skladajú z mikrotubulov", correct: true },
+      { id: "e", text: "obsahujú kolagén", correct: false },
+      { id: "f", text: "sú zakotvené v bazálnom teliesku", correct: true },
+      { id: "g", text: "majú na povrchu vždy pružnú pelikulu", correct: false },
+      { id: "h", text: "sú pohybové organely niektorých prvokov", correct: true }
+    ]
+  },
+  {
+    id: 96,
+    text: "Bunky všetkých živočíchov:",
+    options: [
+      { id: "a", text: "sú eukaryotické", correct: true },
+      { id: "b", text: "v niektorých prípadoch prokaryotické", correct: false },
+      { id: "c", text: "majú membránové organely", correct: true },
+      { id: "d", text: "majú lyzozómy", correct: true },
+      { id: "e", text: "majú pelikulu", correct: false },
+      { id: "f", text: "sú pospájané plazmodezmami", correct: false },
+      { id: "g", text: "obsahujú melanin", correct: false },
+      { id: "h", text: "sa rozmnožujú priamym delením", correct: false }
+    ]
+  },
+  {
+    id: 97,
+    text: "K vysokošpecializovaným fibrilárnym štruktúram živočíšnych buniek patria:",
+    options: [
+      { id: "a", text: "nervové vlákna", correct: false },
+      { id: "b", text: "mikrofilamenty", correct: false },
+      { id: "c", text: "cytoskeletová sústava", correct: false },
+      { id: "d", text: "myofibrily", correct: true },
+      { id: "e", text: "mikrotubuly", correct: false },
+      { id: "f", text: "tonofibrily", correct: true },
+      { id: "g", text: "brvy", correct: true },
+      { id: "h", text: "bičíky", correct: true }
+    ]
+  },
+  {
+    id: 98,
+    text: "Pre lyzozómy je charakteristické, že:",
+    options: [
+      { id: "a", text: "regulujú príjem a výdaj látok bunkou", correct: false },
+      { id: "b", text: "predstavujú transportné vezikuly", correct: false },
+      { id: "c", text: "majú vysoký obsah tráviacich enzýmov", correct: true },
+      { id: "d", text: "sú charakteristické pre živočíšne bunky", correct: true },
+      { id: "e", text: "sú charakteristické pre rastlinné bunky", correct: false },
+      { id: "f", text: "zúčastňujú sa na bunkovom trávení v prokaryotických bunkách", correct: false },
+      { id: "g", text: "rozkladajú cudzorodé látky v bunke", correct: true },
+      { id: "h", text: "rozkladajú nepotrebné látky v bunke", correct: true }
+    ]
+  },
+  {
+    id: 99,
+    text: "Mikrotubuly sú v bičíku usporiadané:",
+    options: [
+      { id: "a", text: "do deväť trojíc po obvode", correct: false },
+      { id: "b", text: "priečne", correct: false },
+      { id: "c", text: "podľa schémy 9+2", correct: true },
+      { id: "d", text: "do deväť dvojíc po obvode a jedného centrálneho páru", correct: true },
+      { id: "e", text: "do jedenásť obvodových dvojíc", correct: false },
+      { id: "f", text: "náhodne", correct: false },
+      { id: "g", text: "podľa schémy 9+3", correct: false },
+      { id: "h", text: "v centrálnej rovine", correct: false }
+    ]
+  },
+  {
+    id: 100,
+    text: "V rastlinných bunkách sa nenachádzajú:",
+    options: [
+      { id: "a", text: "lyzozómy", correct: false },
+      { id: "b", text: "neurofibrily", correct: true },
+      { id: "c", text: "tonofibrily", correct: true },
+      { id: "d", text: "hydrolytické enzýmy", correct: false },
+      { id: "e", text: "tonoplast", correct: false },
+      { id: "f", text: "jadierka", correct: false },
+      { id: "g", text: "plazmodezmy", correct: false },
+      { id: "h", text: "myofibrily", correct: true }
+    ]
+  },
+  {
+    id: 101,
+    text: "Tonoplast:",
+    options: [
+      { id: "a", text: "je na povrchu leukoplastov", correct: false },
+      { id: "b", text: "je priepustná membrána na povrchu vakuol", correct: false },
+      { id: "c", text: "je polopriepustná membrána na povrchu vakuol", correct: true },
+      { id: "d", text: "je semipermeabilný", correct: true },
+      { id: "e", text: "je na povrchu lyzozómov", correct: false },
+      { id: "f", text: "obaľuje vakuoly", correct: true },
+      { id: "g", text: "je na povrchu transportných vezikulov", correct: false },
+      { id: "h", text: "oddeľuje obsah vakuol od cytoplazmy", correct: true }
+    ]
+  },
+  {
+    id: 102,
+    text: "V stróme chloroplastov sa nachádzajú:",
+    options: [
+      { id: "a", text: "tylakoidy", correct: true },
+      { id: "b", text: "kruhové molekuly DNA", correct: true },
+      { id: "c", text: "chromatín", correct: false },
+      { id: "d", text: "lineárne molekuly DNA", correct: false },
+      { id: "e", text: "hydrolytické enzýmy", correct: false },
+      { id: "f", text: "bunková šťava", correct: false },
+      { id: "g", text: "karotenoidy", correct: true },
+      { id: "h", text: "plastidové ribozómy", correct: true }
+    ]
+  },
+  {
+    id: 103,
+    text: "Podľa bunkovej teórie:",
+    options: [
+      { id: "a", text: "z hľadiska organizácie predstavujú bunky najjednoduchšie živé sústavy", correct: false },
+      { id: "b", text: "všetky bunky pozostávajú z tých istých prvkov a molekúl", correct: false },
+      { id: "c", text: "každá bunka vzniká len delením už existujúcej bunky", correct: true },
+      { id: "d", text: "živé bunky sú zložené z rovnakej hmoty ako neživé objekty", correct: false },
+      { id: "e", text: "základom každého organizmu rastlín a živočíchov je bunka", correct: true },
+      { id: "f", text: "každá bunka pozostáva predovšetkým z anorganických makromolekúl", correct: false },
+      { id: "g", text: "bunky sú štruktúrované, stupňovito usporiadané, otvorené nukleoproteínové sústavy", correct: false },
+      { id: "h", text: "všetky bunky majú schopnosť uchovávať a replikovať genetickú informáciu", correct: false }
+    ]
+  },
+  {
+    id: 104,
+    text: "Prvú ucelenú evolučnú teóriu živých organizmov sformuloval:",
+    options: [
+      { id: "a", text: "nemecký lekár G. Trevirana", correct: false },
+      { id: "b", text: "Ch. Darwin", correct: false },
+      { id: "c", text: "J. B. Lamarck", correct: true },
+      { id: "d", text: "L. Pasteur", correct: false },
+      { id: "e", text: "C. Linné", correct: false },
+      { id: "f", text: "C. Woese", correct: false },
+      { id: "g", text: "anglický prírodovedec W. Harvey", correct: false },
+      { id: "h", text: "francúzsky prírodovedec J. B. Lamarck v roku 1809", correct: true }
+    ]
+  },
+  {
+    id: 105,
+    text: "Ktoré tvrdenie je správne:",
+    options: [
+      { id: "a", text: "J. B. Lamarck je autorom binomickej nomenklatúry", correct: false },
+      { id: "b", text: "L. Pasteur definitívne vyvrátil možnosť samoplodenia i tých najmenších organizmov", correct: true },
+      { id: "c", text: "M. J. Schleiden je zakladateľom modernej systematiky organizmov", correct: false },
+      { id: "d", text: "T. Schwann patrí k autorom bunkovej teórie", correct: true },
+      { id: "e", text: "C. Woese je autorom dvojmenného pomenovania organizmov", correct: false },
+      { id: "f", text: "pre skúmanie biologických objektov použil mikroskop medzi prvými R. Hooke", correct: true },
+      { id: "g", text: "J. G. Mendel objasnil, že molekuly DNA sú materiálnym nositeľom genetickej informácie", correct: false },
+      { id: "h", text: "autorstvo pojmu biológia sa pripisuje A. Leeuwenhoekovi", correct: false }
+    ]
+  },
+  {
+    id: 106,
+    text: "Bunkovú teóriu formulovali:",
+    options: [
+      { id: "a", text: "R. Hooke", correct: false },
+      { id: "b", text: "A. Leewenhoek", correct: false },
+      { id: "c", text: "M. J. Schleiden", correct: true },
+      { id: "d", text: "L. Pasteur", correct: false },
+      { id: "e", text: "J. E. Purkyně", correct: false },
+      { id: "f", text: "T. Schwann", correct: true },
+      { id: "g", text: "M. Malpighi", correct: false },
+      { id: "h", text: "Ch. L. Treviranus", correct: false }
+    ]
+  },
+  {
+    id: 107,
+    text: "Základy novodobej anatómie ľudského tela položil:",
+    options: [
+      { id: "a", text: "W. Harvey", correct: false },
+      { id: "b", text: "Aristoteles", correct: false },
+      { id: "c", text: "R. Hooke", correct: false },
+      { id: "d", text: "J. E. Purkyňe", correct: false },
+      { id: "e", text: "A. Vesalius", correct: true },
+      { id: "f", text: "Galenos", correct: false },
+      { id: "g", text: "R. Virchow", correct: false },
+      { id: "h", text: "M. Malpighi", correct: false }
+    ]
+  },
+  {
+    id: 108,
+    text: "Medzi fyziologické vedy patria:",
+    options: [
+      { id: "a", text: "fyziológia človeka", correct: true },
+      { id: "b", text: "fyziológia prvkov", correct: false },
+      { id: "c", text: "histológia", correct: false },
+      { id: "d", text: "embryológia", correct: false },
+      { id: "e", text: "vedy, ktoré študujú funkciu jednotlivých orgánov živých sústav", correct: true },
+      { id: "f", text: "fyziológia živočíchov", correct: true },
+      { id: "g", text: "vedy, ktoré študujú funkciu jednotlivých bunkových organel", correct: true },
+      { id: "h", text: "fyziológia rastlín", correct: false }
+    ]
+  },
+  {
+    id: 109,
+    text: "Parazitológia študuje:",
+    options: [
+      { id: "a", text: "správanie mikroorganizmov", correct: false },
+      { id: "b", text: "cudzopasné organizmy", correct: true },
+      { id: "c", text: "vzťahy živých sústav k prostrediu", correct: false },
+      { id: "d", text: "cudzopasné mikroorganizmy", correct: true },
+      { id: "e", text: "dedičnosť a premenlivosť mikroorganizmov", correct: false },
+      { id: "f", text: "vzťahy medzi hostiteľom a parazitom", correct: true },
+      { id: "g", text: "zárodočný vývoj mikroorganizmov", correct: false },
+      { id: "h", text: "a definuje biologické zákonitosti vzťahov medzi parazitom a hostiteľom", correct: true }
+    ]
+  },
+  {
+    id: 110,
+    text: "Dvojzávitnicovú štruktúru DNA a jej význam pre prenos genetickej informácie objasnili:",
+    options: [
+      { id: "a", text: "C. Woese", correct: false },
+      { id: "b", text: "v roku 1944", correct: false },
+      { id: "c", text: "v roku 1953", correct: true },
+      { id: "d", text: "F. H. Crick", correct: true },
+      { id: "e", text: "J. G. Mendel", correct: false },
+      { id: "f", text: "v roku 1866", correct: false },
+      { id: "g", text: "J. D. Watson", correct: true },
+      { id: "h", text: "v roku 1966", correct: false }
+    ]
+  },
+  {
+    id: 111,
+    text: "Voda v bunkách má funkciu:",
+    options: [
+      { id: "a", text: "zásobnú", correct: false },
+      { id: "b", text: "konštrukčnú", correct: false },
+      { id: "c", text: "ako zdroj energie", correct: false },
+      { id: "d", text: "substrátovú - vytvára vhodné prostredie pre chemické deje", correct: true },
+      { id: "e", text: "ako účinné rozpúšťadlo", correct: true },
+      { id: "f", text: "regulačnú - reguluje príjem a výdaj látok bunkou", correct: false },
+      { id: "g", text: "ako dôležitý faktor tepelného hospodárenia", correct: true },
+      { id: "h", text: "ako základná stavebná jednotka makromolekulových látok", correct: false }
+    ]
+  },
+  {
+    id: 112,
+    text: "Monomérom bielkovín sú:",
+    options: [
+      { id: "a", text: "nukleotidy", correct: false },
+      { id: "b", text: "peptidy", correct: false },
+      { id: "c", text: "aminoskupiny", correct: false },
+      { id: "d", text: "atómy uhlíka a dusíka", correct: false },
+      { id: "e", text: "aminokyseliny", correct: true },
+      { id: "f", text: "dusíkaté organické bázy", correct: false },
+      { id: "g", text: "monosacharidy", correct: false },
+      { id: "h", text: "nukleozidy", correct: false }
+    ]
+  },
+  {
+    id: 113,
+    text: "Jednotlivé aminokyseliny sú v bielkovinovom reťazci pospájané väzbou:",
+    options: [
+      { id: "a", text: "esterovou", correct: false },
+      { id: "b", text: "fosfodiesterovou", correct: false },
+      { id: "c", text: "glykozidovou", correct: false },
+      { id: "d", text: "peptidovou", correct: true },
+      { id: "e", text: "vodíkovými mostíkmi", correct: false },
+      { id: "f", text: "peptidovou medzi dusíkatými bázami", correct: false },
+      { id: "g", text: "kovalentnou", correct: true },
+      { id: "h", text: "nekovalentnou", correct: false }
+    ]
+  },
+  {
+    id: 114,
+    text: "Bielkoviny majú funkciu:",
+    options: [
+      { id: "a", text: "informačnú", correct: true },
+      { id: "b", text: "ako najhospodárnejší zdroj energie", correct: false },
+      { id: "c", text: "metabolickú - fibrilárne bielkoviny", correct: false },
+      { id: "d", text: "metabolickú - globulárne bielkoviny", correct: true },
+      { id: "e", text: "mechanickú - fibrilárne bielkoviny", correct: true },
+      { id: "f", text: "mechanickú - globulárne bielkoviny", correct: false },
+      { id: "g", text: "v živočíšnych bunkách hlavne zásobnú", correct: false },
+      { id: "h", text: "štruktúrnu", correct: true }
+    ]
+  },
+  {
+    id: 115,
+    text: "Monomérom nukleových kyselín sú:",
+    options: [
+      { id: "a", text: "aminokyseliny", correct: false },
+      { id: "b", text: "adenín, guanín, tymín, cytozín", correct: false },
+      { id: "c", text: "nukleotidy", correct: true },
+      { id: "d", text: "chromatin", correct: false },
+      { id: "e", text: "dusíkaté bázy", correct: false },
+      { id: "f", text: "nukleozidy", correct: false },
+      { id: "g", text: "ribonukleotidy alebo deoxyribonukleotidy", correct: true },
+      { id: "h", text: "pentózy", correct: false }
+    ]
+  },
+  {
+    id: 116,
+    text: "Z chemického hľadiska sú nukleové kyseliny:",
+    options: [
+      { id: "a", text: "polypeptidy", correct: false },
+      { id: "b", text: "estery vyšších mastných kyselín a glycerolu", correct: false },
+      { id: "c", text: "polynukleotidy", correct: true },
+      { id: "d", text: "makromolekulové látky", correct: true },
+      { id: "e", text: "biopolyméry", correct: true },
+      { id: "f", text: "pentózy", correct: false },
+      { id: "g", text: "monoméry", correct: false },
+      { id: "h", text: "dlhé reťazce zložené z aminokyselín", correct: false }
+    ]
+  },
+  {
+    id: 117,
+    text: "Lipidy:",
+    options: [
+      { id: "a", text: "môžu byť súčasťou vitamínov", correct: true },
+      { id: "b", text: "sú súčasťou niektorých hormónov", correct: true },
+      { id: "c", text: "katalyzujú chemické reakcie v bunke", correct: false },
+      { id: "d", text: "sú hlavnou zložkou protilátok", correct: false },
+      { id: "e", text: "sa podieľajú na regulačných procesoch v bunke", correct: true },
+      { id: "f", text: "sú najhospodárnejším zdrojom energie", correct: true },
+      { id: "g", text: "sú súčasťou biomembrán", correct: true },
+      { id: "h", text: "majú ochrannú funkciu, napr. vosky", correct: true }
+    ]
+  },
+  {
+    id: 118,
+    text: "Mikroorganizmy:",
+    options: [
+      { id: "a", text: "sú archeóny", correct: true },
+      { id: "b", text: "sú všetky baktérie", correct: true },
+      { id: "c", text: "študuje mikrobiológia", correct: true },
+      { id: "d", text: "majú mikroskopické rozmery", correct: true },
+      { id: "e", text: "sú onkogénne vírusy", correct: true },
+      { id: "f", text: "sú len eukaryotické organizmy", correct: false },
+      { id: "g", text: "sú jednobunkové organizmy mikroskopických rozmerov", correct: true },
+      { id: "h", text: "sú viditeľné aj voľným okom", correct: false }
+    ]
+  },
+  {
+    id: 119,
+    text: "Medzi prokaryota patria:",
+    options: [
+      { id: "a", text: "jednobunkové riasy", correct: false },
+      { id: "b", text: "baktérie", correct: true },
+      { id: "c", text: "niektoré mikroorganizmy", correct: true },
+      { id: "d", text: "bakteriofágy", correct: false },
+      { id: "e", text: "bičíkovce", correct: false },
+      { id: "f", text: "archeóny", correct: true },
+      { id: "g", text: "vírusy", correct: false },
+      { id: "h", text: "jednobunkové rastliny", correct: false }
+    ]
+  },
+  {
+    id: 120,
+    text: "Medzi nebunkové organizmy patria:",
+    options: [
+      { id: "a", text: "sinice", correct: false },
+      { id: "b", text: "onkovírusy", correct: true },
+      { id: "c", text: "spirily", correct: false },
+      { id: "d", text: "červené krvinky", correct: false },
+      { id: "e", text: "bakteriofágy", correct: true },
+      { id: "f", text: "spirochéty", correct: false },
+      { id: "g", text: "vírusy", correct: true },
+      { id: "h", text: "molekulárne vnútrobunkové parazity", correct: true }
+    ]
+  },
+  {
+    id: 121,
+    text: "Vírusy sú:",
+    options: [
+      { id: "a", text: "vnútrobunkové parazity", correct: true },
+      { id: "b", text: "nebunkové organizmy", correct: true },
+      { id: "c", text: "mimobunkové parazity", correct: false },
+      { id: "d", text: "nukleoproteínové častice", correct: true },
+      { id: "e", text: "organizmy s jednoduchým metabolizmom", correct: false },
+      { id: "f", text: "bez vlastného metabolizmu", correct: true },
+      { id: "g", text: "prokaryotické organizmy", correct: false },
+      { id: "h", text: "schopné vyvolať infekčné ochorenia", correct: true }
+    ]
+  },
+  {
+    id: 122,
+    text: "Vírusy spôsobujú u človeka:",
+    options: [
+      { id: "a", text: "besnotu", correct: true },
+      { id: "b", text: "žltačku", correct: true },
+      { id: "c", text: "chrípku", correct: true },
+      { id: "d", text: "krívačku a slintačku", correct: false },
+      { id: "e", text: "kiahne", correct: true },
+      { id: "f", text: "tuberkulózu", correct: false },
+      { id: "g", text: "kvapavku", correct: false },
+      { id: "h", text: "Downov syndróm", correct: false }
+    ]
+  },
+  {
+    id: 123,
+    text: "Rozmnožovanie vírusov:",
+    options: [
+      { id: "a", text: "má štyri fázy - profáza, metafáza, anafáza, telofáza", correct: false },
+      { id: "b", text: "má tri fázy", correct: false },
+      { id: "c", text: "prebieha amitózou", correct: false },
+      { id: "d", text: "prebieha len v živých bunkách", correct: true },
+      { id: "e", text: "prebieha len v eukaryotických bunkách", correct: false },
+      { id: "f", text: "prebieha delením", correct: false },
+      { id: "g", text: "prebieha aj mimo bunky", correct: false },
+      { id: "h", text: "môže prebiehať aj v bunkových kultúrach", correct: true }
+    ]
+  },
+  {
+    id: 124,
+    text: "Pôvodcom detskej obrny je:",
+    options: [
+      { id: "a", text: "vírus", correct: true },
+      { id: "b", text: "bakteriofág", correct: false },
+      { id: "c", text: "nukleoproteínová častica", correct: true },
+      { id: "d", text: "baktéria", correct: false }
+    ]
+  },
+  {
+    id: 125,
+    text: "Bielkovinový obal vírusu sa nazýva:",
+    options: [
+      { id: "a", text: "kapsid a je zložený z tukových monomérov", correct: false },
+      { id: "b", text: "cysta", correct: false },
+      { id: "c", text: "puzdro", correct: false },
+      { id: "d", text: "virión", correct: false },
+      { id: "e", text: "bielkovinový plášť", correct: true },
+      { id: "f", text: "spóra", correct: false },
+      { id: "g", text: "nukleoid", correct: false },
+      { id: "h", text: "kapsid", correct: true }
+    ]
+  },
+  {
+    id: 126,
+    text: "Vírusy spôsobujú u človeka:",
+    options: [
+      { id: "a", text: "syfilis", correct: false },
+      { id: "b", text: "osýpky", correct: true },
+      { id: "c", text: "infekčné ochorenia", correct: true },
+      { id: "d", text: "nádchu", correct: true },
+      { id: "e", text: "herpes simplex", correct: true },
+      { id: "f", text: "zhubné nádory", correct: true },
+      { id: "g", text: "mozaikovú chorobu", correct: true },
+      { id: "h", text: "AIDS", correct: true }
+    ]
+  },
+  {
+    id: 127,
+    text: "Vírusy sa rozmnožujú:",
+    options: [
+      { id: "a", text: "meiózou", correct: false },
+      { id: "b", text: "mitózou", correct: false },
+      { id: "c", text: "amitózou", correct: false },
+      { id: "d", text: "v živočíšnych bunkách tak, že do nich prenikajú pinocytózou", correct: true },
+      { id: "e", text: "pučaním", correct: false },
+      { id: "f", text: "nepriamym delením", correct: false },
+      { id: "g", text: "v hostiteľskej bunke, ktorá vytvára nové virióny", correct: true },
+      { id: "h", text: "tak, že v hostiteľskej bunke prebieha replikácia a realizácia ich genetickej informácie", correct: true }
+    ]
+  },
+  {
+    id: 128,
+    text: "Vírusy sa odlišujú od ostatných mikroorganizmov tým, že:",
+    options: [
+      { id: "a", text: "majú len jeden typ nukleovej kyseliny", correct: true },
+      { id: "b", text: "sú najmenšie prokaryotické organizmy", correct: false },
+      { id: "c", text: "sú to najmenšie infekčné častice - majú rozmery 15-300 nm", correct: true },
+      { id: "d", text: "sú to najmenšie infekčné častice - majú rozmery 15 – 300 μm", correct: false },
+      { id: "e", text: "sú to nebunkové organizmy", correct: true },
+      { id: "f", text: "spôsobujú infekčné ochorenia", correct: false },
+      { id: "g", text: "majú bičíky", correct: false },
+      { id: "h", text: "nemajú vlastný genetický materiál", correct: false }
+    ]
+  },
+  {
+    id: 129,
+    text: "Bakteriofág je:",
+    options: [
+      { id: "a", text: "baktéria so schopnosťou fagocytózy", correct: false },
+      { id: "b", text: "špeciálny makrofág", correct: false },
+      { id: "c", text: "bakteriálny vírus", correct: true },
+      { id: "d", text: "druh baktérie", correct: false },
+      { id: "e", text: "baktéria pohlcujúca vírusy", correct: false },
+      { id: "f", text: "druh vírusu", correct: true },
+      { id: "g", text: "vírus napádajúci baktérie", correct: true },
+      { id: "h", text: "rozmnožovaním viazaný na eukaryotické bunky", correct: false }
+    ]
+  },
+  {
+    id: 130,
+    text: "Každý virión obsahuje:",
+    options: [
+      { id: "a", text: "bielkovinový kapsid", correct: true },
+      { id: "b", text: "DNA alebo RNA a bielkoviny", correct: true },
+      { id: "c", text: "nukleovú kyselinu a bielkoviny", correct: true },
+      { id: "d", text: "tukový obal", correct: false },
+      { id: "e", text: "tukový kapsid", correct: false },
+      { id: "f", text: "hlavičku a bičík", correct: false },
+      { id: "g", text: "bielkovinový plášť", correct: true },
+      { id: "h", text: "oba typy nukleových kyselín a bielkoviny", correct: false }
+    ]
+  },
+  {
+    id: 131,
+    text: "Vírusy:",
+    options: [
+      { id: "a", text: "majú jednoduchú prokaryotickú bunku", correct: false },
+      { id: "b", text: "sú najjednoduchšie jednobunkové organizmy", correct: false },
+      { id: "c", text: "sú vnútrobunkové parazity", correct: true },
+      { id: "d", text: "sú zložené z nukleových kyselín a lipidového kapsidu", correct: false },
+      { id: "e", text: "študuje mikrobiológia", correct: true },
+      { id: "f", text: "študuje virológia", correct: true },
+      { id: "g", text: "sú nebunkové organizmy", correct: true },
+      { id: "h", text: "majú ako prirodzený rezervoár niektoré bezstavovcе", correct: true }
+    ]
+  },
+  {
+  id: 132,
+  text: "Vírus chrípky:",
+  options: [
+    { id: "a", text: "má veľkosť 50 - 80 nm", correct: true },
+    { id: "b", text: "môžeme pozorovať len elektrónovým mikroskopom", correct: true },
+    { id: "c", text: "má kapsid zložený z bielkovinových monomérov", correct: true },
+    { id: "d", text: "môžeme pozorovať optickým mikroskopom", correct: false },
+    { id: "e", text: "má veľkosť 15 - 300 nm", correct: false },
+    { id: "f", text: "má tukový obal", correct: true },
+    { id: "g", text: "má nukleoid zložený z bielkovinových monomérov", correct: false },
+    { id: "h", text: "má nukleokapsid uzavretý v tukovom obale", correct: true }
+  ]
+},
+{
+  id: 133,
+  text: "Medzi vírusové ochorenia patrí:",
+  options: [
+    { id: "a", text: "angína", correct: false },
+    { id: "b", text: "žltačka", correct: true },
+    { id: "c", text: "zápal príušných žliaz", correct: true },
+    { id: "d", text: "zápal mozgových blán", correct: true },
+    { id: "e", text: "tuberkulóza", correct: false },
+    { id: "f", text: "malária", correct: false },
+    { id: "g", text: "mor hydiny", correct: true },
+    { id: "h", text: "ochorenie tabakových listov", correct: true }
+  ]
+},
+{
+  id: 134,
+  text: "Rastlinné vírusy:",
+  options: [
+    { id: "a", text: "obsahujú obvykle RNA molekuly", correct: true },
+    { id: "b", text: "sa nazývajú cyanofágy", correct: false },
+    { id: "c", text: "obsahujú obvykle DNA molekuly", correct: false },
+    { id: "d", text: "nie sú infekčné", correct: false },
+    { id: "e", text: "sa rozmnožujú v siniciach", correct: false },
+    { id: "f", text: "napr. vírus tabakovej mozaiky má dvojvláknovú molekulu RNA", correct: false },
+    { id: "g", text: "spôsobujú rôzne virózy rastlín", correct: true },
+    { id: "h", text: "sa rozmnožujú v rastlinných bunkách", correct: true }
+  ]
+},
+{
+  id: 135,
+  text: "Baktérie:",
+  options: [
+    { id: "a", text: "sú autotrofné alebo heterotrofné", correct: true },
+    { id: "b", text: "majú za optimálnych podmienok generačnú dobu 15 - 30 minút", correct: true },
+    { id: "c", text: "fototrofné sú cyanobaktérie", correct: true },
+    { id: "d", text: "sa rozmnožujú nepriamym bunkovým delením", correct: false },
+    { id: "e", text: "môžu žiť ako saprofyty v pôdach", correct: true },
+    { id: "f", text: "môžu žiť v symbióze s človekom", correct: true },
+    { id: "g", text: "majú v plazmatickej membráne peptidoglykan", correct: false },
+    { id: "h", text: "majú submikroskopické rozmery", correct: false }
+  ]
+},
+{
+  id: 136,
+  text: "Kokovité baktérie:",
+  options: [
+    { id: "a", text: "majú bičíky", correct: false },
+    { id: "b", text: "nemajú bičíky", correct: true },
+    { id: "c", text: "nevykonávajú aktívny pohyb", correct: true },
+    { id: "d", text: "vykonávajú aktívny pohyb pomocou bičíka", correct: false },
+    { id: "e", text: "môžu vytvárať súbory buniek strapcovitého charakteru", correct: true },
+    { id: "f", text: "môžu vytvárať súbory buniek retiazkovitého charakteru", correct: true },
+    { id: "g", text: "spôsobujú tuberkulózu", correct: false },
+    { id: "h", text: "sa rozmnožujú nepriamym delením", correct: false }
+  ]
+},
+{
+  id: 137,
+  text: "Streptokoky vytvárajú:",
+  options: [
+    { id: "a", text: "strapce", correct: false },
+    { id: "b", text: "dvojice", correct: false },
+    { id: "c", text: "špirály", correct: false },
+    { id: "d", text: "paličky", correct: false },
+    { id: "e", text: "retiazky", correct: true },
+    { id: "f", text: "rozvetvené vláknité štruktúry", correct: false },
+    { id: "g", text: "organické látky len chemosyntézou", correct: false },
+    { id: "h", text: "špecifické rozmnožovacie štruktúry - spóry", correct: false }
+  ]
+},
+{
+  id: 138,
+  text: "Stafylokoky vytvárajú:",
+  options: [
+    { id: "a", text: "strapce", correct: true },
+    { id: "b", text: "dvojice", correct: false },
+    { id: "c", text: "špirály", correct: false },
+    { id: "d", text: "paličky", correct: false },
+    { id: "e", text: "retiazky", correct: false },
+    { id: "f", text: "rozvetvené vláknité štruktúry", correct: false },
+    { id: "g", text: "organické látky len chemosyntézou", correct: false },
+    { id: "h", text: "špecifické rozmnožovacie štruktúry - spóry", correct: false }
+  ]
+},
+{
+  id: 139,
+  text: "Baktérie sa rozmnožujú:",
+  options: [
+    { id: "a", text: "väčšinou priečnym delením", correct: true },
+    { id: "b", text: "priamym delením", correct: true },
+    { id: "c", text: "replikáciou", correct: false },
+    { id: "d", text: "väčšinou pozdĺžnym delením", correct: false },
+    { id: "e", text: "nepohlavne", correct: true },
+    { id: "f", text: "nepriamym delením bunky", correct: false },
+    { id: "g", text: "tak, že si dve baktérie vymenia chromozómy", correct: false },
+    { id: "h", text: "aj rozpadom - vláknité baktérie", correct: true }
+  ]
+},
+{
+  id: 140,
+  text: "Každá bakteriálna bunka má:",
+  options: [
+    { id: "a", text: "bičík", correct: false },
+    { id: "b", text: "ribozómy", correct: true },
+    { id: "c", text: "cytoplazmu", correct: true },
+    { id: "d", text: "nukleoid", correct: true },
+    { id: "e", text: "puzdro", correct: false },
+    { id: "f", text: "schopnosť fotosyntézy", correct: false },
+    { id: "g", text: "bunkovú stenu", correct: true },
+    { id: "h", text: "jeden kruhový chromozóm", correct: true }
+  ]
+},
+{
+  id: 141,
+  text: "Špirálovito stočené bunky majú:",
+  options: [
+    { id: "a", text: "aktinomycéty", correct: false },
+    { id: "b", text: "rod Streptococcus", correct: false },
+    { id: "c", text: "rod Stafylococcus", correct: false },
+    { id: "d", text: "bacily", correct: false },
+    { id: "e", text: "spirily", correct: true },
+    { id: "f", text: "spirochéty", correct: true },
+    { id: "g", text: "Rhodospirillum rubrum", correct: true },
+    { id: "h", text: "virióny", correct: false }
+  ]
+},
+{
+  id: 142,
+  text: "Bakteriálny chromozóm:",
+  options: [
+    { id: "a", text: "je lineárny", correct: false },
+    { id: "b", text: "je od cytoplazmy oddelený membránou", correct: false },
+    { id: "c", text: "nie je od cytoplazmy ohraničený žiadnou membránou", correct: true },
+    { id: "d", text: "je zložený z chromatínu", correct: false },
+    { id: "e", text: "je pripejený k vnútornej strane cytoplazmatickej membrány", correct: true },
+    { id: "f", text: "má kruhovitý tvar", correct: true },
+    { id: "g", text: "je kruhová dvojreťazcová molekula DNA", correct: true },
+    { id: "h", text: "je pripojený k vnútornej strane jadrovej membrány", correct: false }
+  ]
+},
+{
+  id: 143,
+  text: "Medzi živočíšne vírusy patria:",
+  options: [
+    { id: "a", text: "bakteriofágy", correct: false },
+    { id: "b", text: "vírus mozaiky zemiakov", correct: false },
+    { id: "c", text: "onkovírusy", correct: true },
+    { id: "d", text: "vírus spôsobujúci slintačku a krívačku", correct: true },
+    { id: "e", text: "vírusy spôsobujúce závažné ochorenia človeka", correct: true },
+    { id: "f", text: "onkogénne vírusy", correct: true },
+    { id: "g", text: "vírusy Escherichia coli", correct: false },
+    { id: "h", text: "fág", correct: false }
+  ]
+},
+{
+  id: 144,
+  text: "V prostredí s obsahom až 20 – 26 % NaCl sú schopné rásť:",
+  options: [
+    { id: "a", text: "patogénne baktérie", correct: false },
+    { id: "b", text: "Halobacterium", correct: true },
+    { id: "c", text: "Halococcus", correct: true },
+    { id: "d", text: "termoarcheóny", correct: false },
+    { id: "e", text: "metanoarcheóny", correct: false },
+    { id: "f", text: "Pseudomonas", correct: false },
+    { id: "g", text: "Thermoproteus", correct: false },
+    { id: "h", text: "haloarcheóny", correct: true }
+  ]
+},
+{
+  id: 145,
+  text: "Archeóny sa odlišujú od baktérií tým, že:",
+  options: [
+    { id: "a", text: "majú mikroskopické rozmery", correct: false },
+    { id: "b", text: "majú jadro obalené jadrovou membránou", correct: false },
+    { id: "c", text: "sa rozmnožujú priečnym delením", correct: false },
+    { id: "d", text: "v bunkovej stene neobsahujú peptidoglykan", correct: true },
+    { id: "e", text: "žijú vo fyziologicky extrémnych podmienkach", correct: true },
+    { id: "f", text: "sú to jednobunkové organizmy", correct: false },
+    { id: "g", text: "sú to patogénne organizmy", correct: false },
+    { id: "h", text: "nie sú patogénne organizmy", correct: true }
+  ]
+},
+{
+  id: 146,
+  text: "Význam baktérií v prirodzených ekologických systémoch spočíva v tom, že:",
+  options: [
+    { id: "a", text: "produkujú do atmosféry kyslík", correct: false },
+    { id: "b", text: "spôsobujú infekčné ochorenia", correct: false },
+    { id: "c", text: "sú schopné žiť vo fyziologicky extrémnych podmienkach", correct: false },
+    { id: "d", text: "rozkladajú odumreté telá rastlín a živočíchov", correct: true },
+    { id: "e", text: "obohacujú pôdu o organické zlúčeniny potrebné k fotosyntéze rastlín", correct: false },
+    { id: "f", text: "zohrávajú nezastupiteľnú úlohu pri cyklickej premene látok v prírode", correct: true },
+    { id: "g", text: "mineralizujú organický materiál", correct: true },
+    { id: "h", text: "pomáhajú pri samočistení vodných tokov", correct: true }
+  ]
+},
+{
+  id: 147,
+  text: "Chemoautotrofné baktérie:",
+  options: [
+    { id: "a", text: "získavajú energiu pomocou chlorofylov", correct: false },
+    { id: "b", text: "využívajú ako primárny zdroj uhlíka CO2", correct: true },
+    { id: "c", text: "sú fotosyntetizujúce prokaryota", correct: false },
+    { id: "d", text: "sú heterotrofné organizmy", correct: false },
+    { id: "e", text: "sú saprofyty", correct: false },
+    { id: "f", text: "získavajú energiu oxidáciou anorganických zlúčenín", correct: true },
+    { id: "g", text: "sú autotrofné organizmy bez pigmentov", correct: true },
+    { id: "h", text: "získavajú energiu redukciou organických látok, napr. glukózy", correct: false }
+  ]
+},
+{
+  id: 148,
+  text: "Fototrofné prokaryota:",
+  options: [
+    { id: "a", text: "sa považujú za predchodcov chloroplastov rastlín", correct: true },
+    { id: "b", text: "ako zdroj uhlíka využívajú organické zlúčeniny", correct: false },
+    { id: "c", text: "sú sinice", correct: true },
+    { id: "d", text: "sú cyanobaktérie", correct: true },
+    { id: "e", text: "sú saprofyty", correct: false },
+    { id: "f", text: "sú jednobunkové rastliny", correct: false },
+    { id: "g", text: "sú schopné pomocou chlorofylu premieňať svetelnú energiu na chemickú", correct: true },
+    { id: "h", text: "sa využívajú v mliekárenstve pri výrobe syrov", correct: false }
+  ]
+},
+{
+  id: 149,
+  text: "Patogénne baktérie:",
+  options: [
+    { id: "a", text: "sa rozmnožujú nepriamym delením", correct: false },
+    { id: "b", text: "spôsobujú ochorenia človeka", correct: true },
+    { id: "c", text: "sú schopné žiť vo fyziologicky extrémnych podmienkach", correct: false },
+    { id: "d", text: "spôsobujú ochorenia rastlín", correct: true },
+    { id: "e", text: "spôsobujú ochorenia živočíchov", correct: true },
+    { id: "f", text: "sa rozmnožujú priamym bunkovým delením", correct: true },
+    { id: "g", text: "sa využívajú v mliekárenstve pri výrobe syrov, kefírov a jogurtov", correct: false },
+    { id: "h", text: "spôsobujú pohlavné choroby u človeka", correct: true }
+  ]
+},
+{
+  id: 150,
+  text: "Baktérie spôsobujú u človeka:",
+  options: [
+    { id: "a", text: "kvapavku - Treponema pallidum", correct: false },
+    { id: "b", text: "vírusové ochorenia", correct: false },
+    { id: "c", text: "kiahne - Shigella", correct: false },
+    { id: "d", text: "besnotu - Vibrio", correct: false },
+    { id: "e", text: "slintačku - Klebsiella", correct: false },
+    { id: "f", text: "respiračné infekcie – Streptococcus", correct: true },
+    { id: "g", text: "hnačky - Salmonella", correct: true },
+    { id: "h", text: "tuberkulózu - Mycobacterium tuberculosis", correct: true }
+  ]
+},
+{
+  id: 151,
+  text: "Ktorú z uvedených chorôb nespôsobujú vírusy:",
+  options: [
+    { id: "a", text: "mozgovú encefalitídu", correct: false },
+    { id: "b", text: "detskú obrnu", correct: false },
+    { id: "c", text: "tuberkulózu", correct: true },
+    { id: "d", text: "kvapavku", correct: true },
+    { id: "e", text: "syfilis", correct: true },
+    { id: "f", text: "chrípku", correct: false },
+    { id: "g", text: "opar", correct: false },
+    { id: "h", text: "besnotu", correct: false }
+  ]
+},
 ];

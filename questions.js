@@ -2109,4 +2109,466 @@ const QUESTIONS = [
     { id: "h", text: "besnotu", correct: false }
   ]
 },
+{
+  id: 152,
+  text: "Pozitívne vlastnosti baktérií sa využívajú:",
+  options: [
+    { id: "a", text: "pri infekčných chorobách", correct: false },
+    { id: "b", text: "v mliekárenstve pri výrobe syrov a kefírov", correct: true },
+    { id: "c", text: "pri mineralizácii organických zvyškov - pôdne baktérie", correct: true },
+    { id: "d", text: "pri fotosyntéze", correct: false },
+    { id: "e", text: "vo farmaceutickom priemysle", correct: true },
+    { id: "f", text: "v kvasnom priemysle", correct: true },
+    { id: "g", text: "pri ekologických haváriách, napr. kontaminácii pôdy ropnými derivátmi", correct: true },
+    { id: "h", text: "pri chemosyntéze", correct: false }
+  ]
+},
+{
+  id: 153,
+  text: "Základné pletivo je v rastline lokalizované:",
+  options: [
+    { id: "a", text: "na rastovom vrchole stonky", correct: false },
+    { id: "b", text: "na rastovom vrchole koreňa", correct: false },
+    { id: "c", text: "v lykovej časti stoniek", correct: false },
+    { id: "d", text: "v prieduchoch", correct: false },
+    { id: "e", text: "v drevnej časti cievnych zväzkov", correct: false },
+    { id: "f", text: "medzi krycím a vodivým pletivom", correct: true },
+    { id: "g", text: "medzi parenchýmom a kolenchýmom", correct: false },
+    { id: "h", text: "medzi kaulomom a fylomom", correct: false }
+  ]
+},
+{
+  id: 154,
+  text: "Podľa spôsobu zhrubnutia bunkovej steny sa pletivá rozdeľujú na:",
+  options: [
+    { id: "a", text: "krycie, vodivé, základné", correct: false },
+    { id: "b", text: "parenchým, kolenchým, sklerenchým", correct: true },
+    { id: "c", text: "delivé a trváce", correct: false },
+    { id: "d", text: "primárne, latentné, sekundárne", correct: false },
+    { id: "e", text: "pericykel, kambium, felogén", correct: false },
+    { id: "f", text: "kolaterálne, bikolaterálne, koncentrické, radiálne", correct: false },
+    { id: "g", text: "mechanické, zásobné, vylučovacie", correct: false },
+    { id: "h", text: "parenchymatické a mechanické", correct: true }
+  ]
+},
+{
+  id: 155,
+  text: "Označte správnu odpoveď:",
+  options: [
+    { id: "a", text: "parenchým a kolenchým tvoria živé bunky", correct: true },
+    { id: "b", text: "sklerenchým má rovnomerne zhrubnuté bunkové steny", correct: true },
+    { id: "c", text: "bunky sklerenchýmu sú prestúpené plazmodezmami", correct: true },
+    { id: "d", text: "bunky parenchýmu majú na hranách zhrubnuté bunkové steny", correct: false },
+    { id: "e", text: "kolenchým je mechanické pletivo", correct: true },
+    { id: "f", text: "pokožka nadzemných orgánov sa nazýva rizoderma", correct: false },
+    { id: "g", text: "pokožka v koreni rastlín sa nazýva epiderma", correct: false },
+    { id: "h", text: "pŕhľava dvojdomá má emergencie na ochranu", correct: false }
+  ]
+},
+{
+  id: 156,
+  text: "Prieduchy:",
+  options: [
+    { id: "a", text: "sú viacbunkové útvary z podpokožkových buniek", correct: false },
+    { id: "b", text: "môžu byť krycie a žľaznaté", correct: false },
+    { id: "c", text: "tvoria dve zatváravé obličkovité bunky", correct: true },
+    { id: "d", text: "obsahujú v bunkách chloroplasty", correct: true },
+    { id: "e", text: "zabezpečujú výdaj vody vo forme kvapôčiek", correct: false },
+    { id: "f", text: "zabezpečujú výdaj vody vo forme vodnej pary", correct: true },
+    { id: "g", text: "zabezpečujú príjem CO2", correct: true },
+    { id: "h", text: "sa nachádzajú v rizoderme", correct: false }
+  ]
+},
+{
+  id: 157,
+  text: "Hydatódy:",
+  options: [
+    { id: "a", text: "vylučujú vodu a soli z pokožkových pletív", correct: true },
+    { id: "b", text: "sú trvalo otvorené", correct: true },
+    { id: "c", text: "tvoria dve zatváravé podpokožkové bunky", correct: false },
+    { id: "d", text: "sprostredkúvajú výmenu plynov medzi rastlinou a vonkajším prostredím", correct: false },
+    { id: "e", text: "sú prieduchy, ktoré stratili zatváraciu schopnosť", correct: true },
+    { id: "f", text: "sú trichómy, ktoré stratili zatváraciu schopnosť", correct: false },
+    { id: "g", text: "sú napr. v rizoderme", correct: false },
+    { id: "h", text: "pri nadbytku vodných pár v ovzduší vylučujú vodu a soli z pokožkových pletív", correct: true }
+  ]
+},
+{
+  id: 158,
+  text: "Emergencie majú:",
+  options: [
+    { id: "a", text: "egreš obyčajný", correct: true },
+    { id: "b", text: "muškát", correct: false },
+    { id: "c", text: "pŕhľava dvojdomá", correct: false },
+    { id: "d", text: "mäsožravé rastliny", correct: true },
+    { id: "e", text: "ruža šípová", correct: true },
+    { id: "f", text: "vodné rastliny", correct: false },
+    { id: "g", text: "korene rastlín", correct: false },
+    { id: "h", text: "ochrannú funkciu najmä pred bylinožravými živočíchmi", correct: true }
+  ]
+},
+{
+  id: 159,
+  text: "V xyléme vedú vodu:",
+  options: [
+    { id: "a", text: "prieduchy", correct: false },
+    { id: "b", text: "kapiláry", correct: false },
+    { id: "c", text: "sitkovice", correct: false },
+    { id: "d", text: "cievy", correct: true },
+    { id: "e", text: "cievice", correct: true },
+    { id: "f", text: "tracheidy", correct: true },
+    { id: "g", text: "trachey", correct: true },
+    { id: "h", text: "trichómy", correct: false }
+  ]
+},
+{
+  id: 160,
+  text: "Sitkovice:",
+  options: [
+    { id: "a", text: "tvoria živé bunky, ktorých priečne bunkové steny sú perforované", correct: true },
+    { id: "b", text: "tvoria mŕtve bunky s priečnymi priehradkami", correct: false },
+    { id: "c", text: "vedú vodu a v nej rozpustené anorganické látky", correct: false },
+    { id: "d", text: "vedú asimiláty na miesta spotreby", correct: true },
+    { id: "e", text: "vodivú činnosť vykonávajú zväčša jedno až dve vegetačné obdobia", correct: true },
+    { id: "f", text: "sú v xyléme", correct: false },
+    { id: "g", text: "sú vo floéme", correct: true },
+    { id: "h", text: "sú súvislé trubice z pôvodne nad sebou uložených odumretých buniek, ktorým sa priečne priehradky čiastočne alebo úplne rozpadli", correct: false }
+  ]
+},
+{
+  id: 161,
+  text: "Transpiračný prúd:",
+  options: [
+    { id: "a", text: "stúpa drevnou časťou cievnych zväzkov", correct: true },
+    { id: "b", text: "stúpa cievami a/alebo cievicami", correct: true },
+    { id: "c", text: "stúpa lykovou časťou cievnych zväzkov", correct: false },
+    { id: "d", text: "stúpa sitkovicami", correct: false },
+    { id: "e", text: "stúpa od koreňa k listom", correct: true },
+    { id: "f", text: "stúpa základným pletivom", correct: false },
+    { id: "g", text: "stúpa floémom", correct: false },
+    { id: "h", text: "stúpa xylémom", correct: true }
+  ]
+},
+{
+  id: 162,
+  text: "Asimilačný prúd:",
+  options: [
+    { id: "a", text: "prúdi drevnou časťou cievnych zväzkov", correct: false },
+    { id: "b", text: "prúdi lykovou časťou cievnych zväzkov", correct: true },
+    { id: "c", text: "prúdi xylémom", correct: false },
+    { id: "d", text: "prúdi smerom od listov na miesto spotreby", correct: true },
+    { id: "e", text: "rozvádza hotové asimiláty", correct: true },
+    { id: "f", text: "začína v koreňoch a končí v listoch", correct: false },
+    { id: "g", text: "prúdi sitkovicami", correct: true },
+    { id: "h", text: "stúpa cievami a cievicami", correct: false }
+  ]
+},
+{
+  id: 163,
+  text: "Koreň má funkciu:",
+  options: [
+    { id: "a", text: "vyživovaciu", correct: true },
+    { id: "b", text: "mechanickú", correct: true },
+    { id: "c", text: "vylučovaciu", correct: false },
+    { id: "d", text: "pri pohlavnom rozmnožovaní rastlín", correct: false },
+    { id: "e", text: "metabolickú", correct: true },
+    { id: "f", text: "transpiračnú", correct: false },
+    { id: "g", text: "asimilačnú", correct: false },
+    { id: "h", text: "pri vegetatívnom rozmnožovaní rastlín", correct: true }
+  ]
+},
+{
+  id: 164,
+  text: "Koreňový vrchol chráni:",
+  options: [
+    { id: "a", text: "pericykel", correct: false },
+    { id: "b", text: "primárna kôra", correct: false },
+    { id: "c", text: "presýpací škrob", correct: false },
+    { id: "d", text: "statolit", correct: false },
+    { id: "e", text: "škrobové zrná v amyloplastoch", correct: false },
+    { id: "f", text: "kambium", correct: false },
+    { id: "g", text: "koreňová čiapočka", correct: true },
+    { id: "h", text: "súbor buniek, ktorých bunkové steny slizovatejú a tým umožňujú lepšie prenikanie koreňa medzi pôdne častice", correct: true }
+  ]
+},
+{
+  id: 165,
+  text: "Akú funkciu má presýpací škrob v koreňovej čiapočke:",
+  options: [
+    { id: "a", text: "vyživovaciu", correct: false },
+    { id: "b", text: "metabolickú", correct: false },
+    { id: "c", text: "podmieňuje pozitívny geotropický rast koreňa", correct: true },
+    { id: "d", text: "zásobnú", correct: false },
+    { id: "e", text: "podmieňuje rast koreňa v smere zemskej tiaže", correct: true },
+    { id: "f", text: "vylučovaciu", correct: false },
+    { id: "g", text: "asimilačnú", correct: false },
+    { id: "h", text: "je to statolitový aparát", correct: true }
+  ]
+},
+  {
+    id: 166,
+    text: "Aké typy koreňových sústav sa rozlišujú pri rastlinách:",
+    options: [
+      { id: "a", text: "homorízia", correct: true },
+      { id: "b", text: "primárna koreňová sústava", correct: true },
+      { id: "c", text: "meristematická koreňová sústava", correct: false },
+      { id: "d", text: "alorízia", correct: true },
+      { id: "e", text: "vedľajšia koreňová sústava", correct: true },
+      { id: "f", text: "adventívna koreňová sústava", correct: true },
+      { id: "g", text: "vegetativna koreňová sústava", correct: false },
+      { id: "h", text: "generativna koreňová sústava", correct: false }
+    ]
+  },
+  {
+    id: 167,
+    text: "Koreňové vlásky vyrastajú z:",
+    options: [
+      { id: "a", text: "koreňovej čiapočky", correct: false },
+      { id: "b", text: "rizodermy", correct: true },
+      { id: "c", text: "kutikuly", correct: false },
+      { id: "d", text: "koreňovej pokožky", correct: true },
+      { id: "e", text: "primárnej kôry", correct: false },
+      { id: "f", text: "pericyklu", correct: false },
+      { id: "g", text: "felogénu", correct: false },
+      { id: "h", text: "rizodermy a podstatne zvyšujú absorpčný povrch koreňa", correct: true }
+    ]
+  },
+  {
+    id: 168,
+    text: "Podľa usporiadania dreva voči lyku môžu byť cievne zväzky:",
+    options: [
+      { id: "a", text: "bikolaterálne", correct: true },
+      { id: "b", text: "asimilačné", correct: false },
+      { id: "c", text: "koncentrické", correct: true },
+      { id: "d", text: "lúčovité", correct: false },
+      { id: "e", text: "transpiračné", correct: false },
+      { id: "f", text: "radiálne", correct: true },
+      { id: "g", text: "kolaterálne", correct: true },
+      { id: "h", text: "mechanické", correct: false }
+    ]
+  },
+  {
+    id: 169,
+    text: "Postavenie listov na stonke môže byť:",
+    options: [
+      { id: "a", text: "perovité", correct: true },
+      { id: "b", text: "zložené", correct: false },
+      { id: "c", text: "vidlicovité", correct: true },
+      { id: "d", text: "dlaňovité", correct: true },
+      { id: "e", text: "striedavé", correct: false },
+      { id: "f", text: "protistojné", correct: true },
+      { id: "g", text: "praslenovité", correct: true },
+      { id: "h", text: "strapcovité", correct: false }
+    ]
+  },
+  {
+    id: 170,
+    text: "Aký je rozdiel medzi jarným a letným drevom:",
+    options: [
+      { id: "a", text: "letné drevo je svetlejšie", correct: false },
+      { id: "b", text: "letné drevo je zložené z veľkých a tenkých buniek", correct: false },
+      { id: "c", text: "jarné drevo je tmavšie a pevnejšie", correct: false },
+      { id: "d", text: "jarné drevo je svetlejšie", correct: true },
+      { id: "e", text: "letné drevo je tmavšie a pevnejšie", correct: true },
+      { id: "f", text: "letné drevo sa označuje ako beľ", correct: false },
+      { id: "g", text: "jarné drevo sa označuje ako jadro", correct: false },
+      { id: "h", text: "jarné drevo je zložené z veľkých buniek s tenkou bunkovou stenou, letné drevo z malých buniek s hrubou bunkovou stenou", correct: true }
+    ]
+  },
+  {
+    id: 171,
+    text: "Vek stromov určíme podľa:",
+    options: [
+      { id: "a", text: "počtu lenticel", correct: false },
+      { id: "b", text: "letokruhov", correct: true },
+      { id: "c", text: "borky", correct: false },
+      { id: "d", text: "rozdielnej štruktúry a farby sekundárneho dreva na jar a v lete", correct: true },
+      { id: "e", text: "rozdielnej štruktúry a farby primárneho dreva na jar a v lete", correct: false },
+      { id: "f", text: "kruhov, ktoré vytvára jarné drevo a letné drevo na priereze", correct: true },
+      { id: "g", text: "počtu stržňových lúčov", correct: false },
+      { id: "h", text: "nerovnomernej tvorby sekundárneho dreva na jar a v lete", correct: true }
+    ]
+  },
+  {
+    id: 172,
+    text: "Tvarovo a funkčne premenená stonka môže byť:",
+    options: [
+      { id: "a", text: "poplaz", correct: true },
+      { id: "b", text: "borka", correct: false },
+      { id: "c", text: "úponok", correct: true },
+      { id: "d", text: "bulva", correct: true },
+      { id: "e", text: "brachyblast", correct: false },
+      { id: "f", text: "korok", correct: false },
+      { id: "g", text: "podzemok", correct: true },
+      { id: "h", text: "stvol", correct: false }
+    ]
+  },
+  {
+    id: 173,
+    text: "K základným fyziologickým funkciám typického zeleného listu patrí:",
+    options: [
+      { id: "a", text: "výmena plynov", correct: true },
+      { id: "b", text: "rozvádzať vodu a v nej rozpustené minerálne látky", correct: false },
+      { id: "c", text: "vyparovanie vody", correct: true },
+      { id: "d", text: "transpirácia", correct: true },
+      { id: "e", text: "rozvádzať produkty fotosyntézy", correct: false },
+      { id: "f", text: "spevňovat rastlinu", correct: false },
+      { id: "g", text: "fotosyntetická asimilácia", correct: true },
+      { id: "h", text: "v prípade kaktusov zadržiavať značné množstvo vody", correct: false }
+    ]
+  },
+  {
+    id: 174,
+    text: "Gutácia sa uskutočňuje cez:",
+    options: [
+      { id: "a", text: "hydatódy", correct: true },
+      { id: "b", text: "prieduchy", correct: false },
+      { id: "c", text: "lenticely", correct: false },
+      { id: "d", text: "prieduchy v kvapalnom stave", correct: false },
+      { id: "e", text: "prieduchy, ktoré stratili zatváraciu schopnosť, preto sú trvalo otvorené", correct: true },
+      { id: "f", text: "póry", correct: false },
+      { id: "g", text: "tentakuly", correct: false },
+      { id: "h", text: "hydatódy v podobe vodnej pary", correct: false }
+    ]
+  },
+  {
+    id: 175,
+    text: "Výmenu plynov pri drevinách zabezpečujú modifikované prieduchy:",
+    options: [
+      { id: "a", text: "lenticely", correct: true },
+      { id: "b", text: "tentakuly", correct: false },
+      { id: "c", text: "póry", correct: false },
+      { id: "d", text: "fylomy", correct: false },
+      { id: "e", text: "metamorfózy", correct: false },
+      { id: "f", text: "nódy", correct: false },
+      { id: "g", text: "púčiky", correct: false },
+      { id: "h", text: "emergencie", correct: false }
+    ]
+  },
+  {
+    id: 176,
+    text: "Opadávanie listov:",
+    options: [
+      { id: "a", text: "urýchľuje kyselina abscisová", correct: true },
+      { id: "b", text: "urýchľuje v niektorých prípadoch vrstva korku, ktorá spôsobí oddelenie listu", correct: true },
+      { id: "c", text: "v prípade listnatých stromov je v intervale 2 až 3 roky", correct: false },
+      { id: "d", text: "urýchľuje kratšia životnosť stonky", correct: false },
+      { id: "e", text: "spôsobuje na báze listu parenchymatická odlučovacia vrstva", correct: true },
+      { id: "f", text: "urýchľuje kratšia životnosť čepele listov", correct: false },
+      { id: "g", text: "ihličnanov je zvyčajne v intervale 2 až 3 roky", correct: true },
+      { id: "h", text: "ihličnanov je niekedy až v intervale 9 rokov", correct: true }
+    ]
+  },
+  {
+    id: 177,
+    text: "Medzi vegetatívne orgány patrí:",
+    options: [
+      { id: "a", text: "kvet", correct: false },
+      { id: "b", text: "stonka", correct: true },
+      { id: "c", text: "koreň", correct: true },
+      { id: "d", text: "radix", correct: true },
+      { id: "e", text: "kaulom", correct: true },
+      { id: "f", text: "listy", correct: true },
+      { id: "g", text: "flos", correct: false },
+      { id: "h", text: "semená", correct: false }
+    ]
+  },
+  {
+    id: 178,
+    text: "Reprodukčné orgány:",
+    options: [
+      { id: "a", text: "nahosemennych rastlín sá uložené v kvétach, ktoré vytvárajú jednopohlavnć samičie a samčie šižtičky", correct: true },
+      { id: "b", text: "semenných rastlín sú listového póvodu", correct: true },
+      { id: "c", text: "nahosemenných rastlin sú uložené v samčích šištičkách", correct: true },
+      { id: "d", text: "nahosemenných tastlín sú uložené v samičích šištičkách", correct: true },
+      { id: "e", text: "krytosemenných rastlín sú uložené v kvetoch", correct: true },
+      { id: "f", text: "magnóliorastov sú uložené v kvetoch", correct: true },
+      { id: "g", text: "sú výsledkom opelenia a oplodnenia", correct: true },
+      { id: "h", text: "majú za úlohu produkovať pohlavné bunky", correct: true }
+    ]
+  },
+  {
+    id: 179,
+    text: "Základné rozmnožovacie častice rastlín sú:",
+    options: [
+      { id: "a", text: "listy", correct: false },
+      { id: "b", text: "stonky", correct: false },
+      { id: "c", text: "korene", correct: false },
+      { id: "d", text: "výtrusy", correct: true },
+      { id: "e", text: "cibule", correct: false },
+      { id: "f", text: "semená", correct: true },
+      { id: "g", text: "kvety", correct: false },
+      { id: "h", text: "výtrusy, ktoré sú výsledkom procesu opelenia a oplodnenia", correct: false }
+    ]
+  },
+  {
+    id: 180,
+    text: "Výtrusy:",
+    options: [
+      { id: "a", text: "sú výsledkom opelenia", correct: false },
+      { id: "b", text: "sú výsledkom oplodnenia", correct: false },
+      { id: "c", text: "sú listového pôvodu", correct: false },
+      { id: "d", text: "patria k rozmnožovacím časticiam", correct: true },
+      { id: "e", text: "sú uložené v šištičkách", correct: false },
+      { id: "f", text: "vznikajú len z telových buniek rastliny", correct: false },
+      { id: "g", text: "vznikajú len zo somatických buniek materského organizmu", correct: false },
+      { id: "h", text: "sú nepohlavné rozmnožovacie častice, ktoré sú výsledkom redukčného delenia vo výtrusniciach", correct: true }
+    ]
+  },
+  {
+    id: 181,
+    text: "Príkladom vrcholíkového súkvetia je:",
+    options: [
+      { id: "a", text: "skrutec", correct: true },
+      { id: "b", text: "chocholík", correct: false },
+      { id: "c", text: "papraslen", correct: false },
+      { id: "d", text: "okolík", correct: false },
+      { id: "e", text: "hlávka", correct: false },
+      { id: "f", text: "kosáčik", correct: false },
+      { id: "g", text: "úbor", correct: true },
+      { id: "h", text: "závinok", correct: false }
+    ]
+  },
+  {
+    id: 182,
+    text: "Príkladom strapcovitého súkvetia je:",
+    options: [
+      { id: "a", text: "klas", correct: false },
+      { id: "b", text: "okolík", correct: false },
+      { id: "c", text: "vrcholík", correct: false },
+      { id: "d", text: "kosáčik", correct: false },
+      { id: "e", text: "šúľok", correct: false },
+      { id: "f", text: "závinok", correct: false },
+      { id: "g", text: "jahňada", correct: true },
+      { id: "h", text: "hlávka", correct: false }
+    ]
+  },
+  {
+    id: 183,
+    text: "Dvojité oplodnenie je typické pre:",
+    options: [
+      { id: "a", text: "nahosemenné rastliny", correct: false },
+      { id: "b", text: "magnóliorasty", correct: false },
+      { id: "c", text: "borinicorasty", correct: false },
+      { id: "d", text: "krytosemenné rastliny", correct: true },
+      { id: "e", text: "rýniorasty", correct: false },
+      { id: "f", text: "všetky cievnaté rastliny", correct: false },
+      { id: "g", text: "stielkaté rastliny", correct: false },
+      { id: "h", text: "výtrusné rastliny", correct: false }
+    ]
+  },
+  {
+    id: 184,
+    text: "Perigón je:",
+    options: [
+      { id: "a", text: "nerozlišený kvetný obal", correct: true },
+      { id: "b", text: "rôznotvarý kvetný obal", correct: false },
+      { id: "c", text: "kvetný obal rozlíšený farebne aj funkčne", correct: false },
+      { id: "d", text: "vnútorná farebná koruna", correct: false },
+      { id: "e", text: "okvetie", correct: true },
+      { id: "f", text: "zložený iba z okvetných lístkov", correct: false },
+      { id: "g", text: "kvetný obal borinicorastov", correct: false },
+      { id: "h", text: "vonkajší zelený kalich", correct: false }
+    ]
+  }
 ];

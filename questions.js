@@ -2566,9 +2566,277 @@ const QUESTIONS = [
       { id: "c", text: "kvetný obal rozlíšený farebne aj funkčne", correct: false },
       { id: "d", text: "vnútorná farebná koruna", correct: false },
       { id: "e", text: "okvetie", correct: true },
-      { id: "f", text: "zložený iba z okvetných lístkov", correct: false },
+      { id: "f", text: "zložený iba z okvetných lístkov", correct: true },
       { id: "g", text: "kvetný obal borinicorastov", correct: false },
       { id: "h", text: "vonkajší zelený kalich", correct: false }
     ]
+  },
+  {
+  id: 185,
+  text: "Gynaeceum sú:",
+  options: [
+    { id: "a", text: "plodolisty borovicorastov", correct: false },
+    { id: "b", text: "samičie šištičky borovicorastov", correct: false },
+    { id: "c", text: "plodolisty", correct: true },
+    { id: "d", text: "tyčinky", correct: false },
+    { id: "e", text: "samčie pohlavné orgány", correct: false },
+    { id: "f", text: "samičie pohlavné orgány", correct: true },
+    { id: "g", text: "piestiky pri vývojovo pokročilejších magnóliorastoch", correct: true },
+    { id: "h", text: "integumenty", correct: false }
+  ]
+},
+{
+  id: 186,
+  text: "Medzi katabolické procesy v rastlinách patria:",
+  options: [
+    { id: "a", text: "rozklad cukrov", correct: true },
+    { id: "b", text: "vznik energeticky bohatých látok - asimilátov", correct: false },
+    { id: "c", text: "rozklad bielkovín a aminokyselín", correct: true },
+    { id: "d", text: "vznik glukózy pri fotosyntéze z CO2 a vody", correct: false },
+    { id: "e", text: "oxidácia glukózy na vodu a oxid uhličitý", correct: true },
+    { id: "f", text: "replikácia DNA", correct: false },
+    { id: "g", text: "také, pri ktorých sa uvoľňuje energia chemických väzieb", correct: true },
+    { id: "h", text: "napr. dýchanie", correct: true }
+  ]
+},
+{
+  id: 187,
+  text: "Ktoré metabolické procesy v rastlinách sú spojené so spotrebou energie:",
+  options: [
+    { id: "a", text: "anabolické", correct: true },
+    { id: "b", text: "asimilačné", correct: true },
+    { id: "c", text: "disimilačné", correct: false },
+    { id: "d", text: "dýchanie", correct: false },
+    { id: "e", text: "fotosyntéza", correct: true },
+    { id: "f", text: "endergonické", correct: true },
+    { id: "g", text: "oxidácia glukózy na vodu a oxid uhličitý", correct: false },
+    { id: "h", text: "vznik glukózy pri fotosyntéze z CO2 a vody", correct: true }
+  ]
+},
+{
+  id: 188,
+  text: "Ktoré metabolické procesy v rastlinách sú spojené s uvoľňovaním energie:",
+  options: [
+    { id: "a", text: "exergonické reakcie", correct: true },
+    { id: "b", text: "dýchanie", correct: true },
+    { id: "c", text: "anabolické", correct: false },
+    { id: "d", text: "katabolické", correct: true },
+    { id: "e", text: "asimilačné", correct: false },
+    { id: "f", text: "disimilačné", correct: true },
+    { id: "g", text: "vznik energeticky bohatých látok - asimilátov", correct: false },
+    { id: "h", text: "syntéza nových organických látok", correct: false }
+  ]
+},
+{
+  id: 189,
+  text: "Primárnym produktom asimilácie autotrofných rastlín sú:",
+  options: [
+    { id: "a", text: "tuky", correct: false },
+    { id: "b", text: "cukry", correct: true },
+    { id: "c", text: "bielkoviny", correct: false },
+    { id: "d", text: "katalytické organické látky", correct: false },
+    { id: "e", text: "regulačné organické látky", correct: false },
+    { id: "f", text: "voda a oxid uhličitý", correct: false },
+    { id: "g", text: "asimiláty", correct: true },
+    { id: "h", text: "glukóza", correct: true }
+  ]
+},
+{
+  id: 190,
+  text: "Autotrofné organizmy sú:",
+  options: [
+    { id: "a", text: "konzumenty organickej hmoty", correct: false },
+    { id: "b", text: "fotosyntetizujúce baktérie", correct: true },
+    { id: "c", text: "odkázané na prísun organických látok z prostredia", correct: false },
+    { id: "d", text: "producenty organickej hmoty", correct: true },
+    { id: "e", text: "zelené rastliny", correct: true },
+    { id: "f", text: "všetky saprofyty", correct: false },
+    { id: "g", text: "huby", correct: false },
+    { id: "h", text: "poloparazitické rastliny", correct: false }
+  ]
+},
+{
+  id: 191,
+  text: "K mixotrofným rastlinám patria:",
+  options: [
+    { id: "a", text: "rosička", correct: true },
+    { id: "b", text: "bublinatka", correct: true },
+    { id: "c", text: "tučnica", correct: true },
+    { id: "d", text: "mucholapka", correct: true },
+    { id: "e", text: "imelo biele", correct: false },
+    { id: "f", text: "kukučina", correct: false },
+    { id: "g", text: "mäsožravé rastliny", correct: true },
+    { id: "h", text: "hemiparazitické rastliny", correct: false }
+  ]
+},
+{
+  id: 192,
+  text: "Bôbovité rastliny poskytujú hlúzkovitým baktériám:",
+  options: [
+    { id: "a", text: "dusík", correct: false },
+    { id: "b", text: "hľúzky", correct: false },
+    { id: "c", text: "bielkoviny", correct: false },
+    { id: "d", text: "sacharidy", correct: true },
+    { id: "e", text: "vodu a minerálne látky", correct: false },
+    { id: "f", text: "oxid uhličitý a vodu", correct: false },
+    { id: "g", text: "nitráty", correct: false },
+    { id: "h", text: "asimilačné pigmenty", correct: false }
+  ]
+},
+{
+  id: 193,
+  text: "Prvá etapa biologickej oxidácie:",
+  options: [
+    { id: "a", text: "prebieha v mitochondriách", correct: false },
+    { id: "b", text: "prebieha v cytoplazme buniek", correct: true },
+    { id: "c", text: "prebieha v eukaryotických bunkách v mitochondriách a v prokaryotických v cytoplazme", correct: false },
+    { id: "d", text: "je enzymatické štiepenie glukózy", correct: true },
+    { id: "e", text: "sa označuje ako pravé kvasenie", correct: false },
+    { id: "f", text: "je proces nazývaný glykolýza", correct: true },
+    { id: "g", text: "je proces glukoneogenézy", correct: false },
+    { id: "h", text: "je štiepenie glukózy až na kyselinu pyrohroznovú", correct: true }
+  ]
+},
+{
+  id: 194,
+  text: "Proces odbúravania glukózy až po kyselinu pyrohroznovú:",
+  options: [
+    { id: "a", text: "je úplná oxidácia", correct: false },
+    { id: "b", text: "je glykolýza", correct: true },
+    { id: "c", text: "je neúplná oxidácia", correct: true },
+    { id: "d", text: "je aeróbne dýchanie", correct: false },
+    { id: "e", text: "dáva čistý energetický zisk 36 molekuly ATP z jednej molekuly glukózy", correct: false },
+    { id: "f", text: "dáva čistý energetický zisk 2 molekuly ATP z jednej molekuly glukózy", correct: true },
+    { id: "g", text: "je mliečne kvasenie", correct: false },
+    { id: "h", text: "je katabolický proces", correct: true }
+  ]
+},
+[
+  {
+    "id": 195,
+    "text": "Haustóriá majú:",
+    "options": [
+      { "id": "a", "text": "reducenty", "correct": false },
+      { "id": "b", "text": "hemiparazity", "correct": true },
+      { "id": "c", "text": "parazitické živočíchy", "correct": false },
+      { "id": "d", "text": "mäsožravé rastliny", "correct": false },
+      { "id": "e", "text": "poloparazity", "correct": true },
+      { "id": "f", "text": "korene vyšších rastlín ako spojenie s mykoríznymi hubami", "correct": false },
+      { "id": "g", "text": "parazitické rastliny", "correct": true },
+      { "id": "h", "text": "konzumenty", "correct": false }
+    ]
+  },
+  {
+    "id": 196,
+    "text": "Z hľadiska výživy baktérie môžu byť:",
+    "options": [
+      { "id": "a", "text": "iba heterotrofné organizmy", "correct": false },
+      { "id": "b", "text": "autotrofno-heterotrofné organizmy", "correct": false },
+      { "id": "c", "text": "iba autotrofné organizmy", "correct": false },
+      { "id": "d", "text": "mixotrofné organizmy", "correct": false },
+      { "id": "e", "text": "autotrofné organizmy", "correct": true },
+      { "id": "f", "text": "heterotrofné organizmy", "correct": true },
+      { "id": "g", "text": "fototrofné organizmy", "correct": true },
+      { "id": "h", "text": "chemotrofné organizmy", "correct": true }
+    ]
+  },
+  {
+    "id": 197,
+    "text": "Fylogeneticky najstarší spôsob tvorby organických látok je:",
+    "options": [
+      { "id": "a", "text": "prototrofia", "correct": true },
+      { "id": "b", "text": "fotoautotrofia", "correct": false },
+      { "id": "c", "text": "chemosyntéza", "correct": true },
+      { "id": "d", "text": "fotosyntéza", "correct": false },
+      { "id": "e", "text": "mixotrofia", "correct": false },
+      { "id": "f", "text": "metabióza", "correct": false },
+      { "id": "g", "text": "autotrofia na báze fotosyntézy", "correct": false },
+      { "id": "h", "text": "chemoautotrofia", "correct": true }
+    ]
+  },
+  {
+    "id": 198,
+    "text": "Pri mykoríze rastlina poskytuje hube predovšetkým:",
+    "options": [
+      { "id": "a", "text": "vodu", "correct": false },
+      { "id": "b", "text": "asimilačné pigmenty", "correct": false },
+      { "id": "c", "text": "minerálne látky", "correct": false },
+      { "id": "d", "text": "sacharidy", "correct": true },
+      { "id": "e", "text": "rastové látky", "correct": false },
+      { "id": "f", "text": "vzdušný dusík", "correct": false },
+      { "id": "g", "text": "kyslík", "correct": false },
+      { "id": "h", "text": "glukózu", "correct": true }
+    ]
+  },
+  {
+    "id": 199,
+    "text": "Mixotrofia:",
+    "options": [
+      { "id": "a", "text": "je autotrofno-heterotrofný spôsob výživy", "correct": true },
+      { "id": "b", "text": "je prispôsobenie sa rastlín stanovišťu s výrazným deficitom dusíka", "correct": true },
+      { "id": "c", "text": "je parazitický spôsob života", "correct": false },
+      { "id": "d", "text": "je schopnosť niektorých rastlin získavať molekulárny dusík zo vzduchu", "correct": false },
+      { "id": "e", "text": "je špecifický spôsob symbiózy", "correct": false },
+      { "id": "f", "text": "je autotrofno-saprofytický spôsob výživy", "correct": false },
+      { "id": "g", "text": "je typická pre mäsožravé rastliny", "correct": true },
+      { "id": "h", "text": "znamená, že rastliny sa vyživujú anorganickými látkami a môžu súčasne prijímať aj organické látky", "correct": true }
+    ]
+  },
+  {
+    "id": 200,
+    "text": "Medzi poloparazity patria:",
+    "options": [
+      { "id": "a", "text": "zelené rastliny, ktoré odoberajú vodu a minerálne látky odumretej rastline", "correct": false },
+      { "id": "b", "text": "živočíchy odoberajúce vodu a minerálne živiny hostiteľskému organizmu", "correct": false },
+      { "id": "c", "text": "imelo biele", "correct": true },
+      { "id": "d", "text": "zelené rastliny, ktoré čerpajú vodu a minerálne látky z hostiteľa", "correct": true },
+      { "id": "e", "text": "zelené rastliny, ktoré haustóriami odoberajú hostiteľovi organické látky", "correct": false },
+      { "id": "f", "text": "mäsožravé rastliny", "correct": false },
+      { "id": "g", "text": "kukučina, ktorá škodí d'ateline", "correct": false },
+      { "id": "h", "text": "choroboplodné baktérie", "correct": false }
+    ]
+  },
+  {
+    "id": 201,
+    "text": "Mykoríza je:",
+    "options": [
+      { "id": "a", "text": "symbióza húb s koreňmi vyšších rastlín", "correct": true },
+      { "id": "b", "text": "symbióza húb s baktériami", "correct": false },
+      { "id": "c", "text": "lichenizmus", "correct": false },
+      { "id": "d", "text": "spolužitie húb so zelenými riasami", "correct": false },
+      { "id": "e", "text": "nasadenie parazita na cudzopasiacu hubu", "correct": false },
+      { "id": "f", "text": "typ mykózy", "correct": false },
+      { "id": "g", "text": "nasadenie cudzopasiacej huby na parazita", "correct": false },
+      { "id": "h", "text": "spôsob symbiózy", "correct": true }
+    ]
+  },
+  {
+    "id": 202,
+    "text": "Chemosyntéza:",
+    "options": [
+      { "id": "a", "text": "je autotrofný spôsob výživy baktérií", "correct": true },
+      { "id": "b", "text": "je heterotrofný spôsob výživy baktérií", "correct": false },
+      { "id": "c", "text": "je spôsob tvorby organických látok nitrifikačných baktérií", "correct": true },
+      { "id": "d", "text": "je zmiešaná autotrofno-heterotrofná výživa", "correct": false },
+      { "id": "e", "text": "využíva ako zdroj uhlíka CO2", "correct": true },
+      { "id": "f", "text": "využíva ako zdroj uhlíka glukózu", "correct": false },
+      { "id": "g", "text": "je vývojovo mladšia ako fotosyntéza", "correct": false },
+      { "id": "h", "text": "vyskytuje sa hlavne pri mikroorganizmoch bez asimilačných pigmentov", "correct": true }
+    ]
+  },
+  {
+    "id": 203,
+    "text": "Poloparazity získavajú organické látky:",
+    "options": [
+      { "id": "a", "text": "fotosyntézou", "correct": true },
+      { "id": "b", "text": "chemosyntézou", "correct": false },
+      { "id": "c", "text": "z mŕtvych organizmov", "correct": false },
+      { "id": "d", "text": "zo živých organizmov", "correct": false },
+      { "id": "e", "text": "haustóriami, ktoré prenikajú do drevných častí cievnych zväzkov", "correct": false },
+      { "id": "f", "text": "mykorízou", "correct": false },
+      { "id": "g", "text": "haustóriami, ktoré prenikajú do lykových častí cievnych zväzkov", "correct": false },
+      { "id": "h", "text": "tentakulami", "correct": false }
+    ]
   }
+],
 ];
